@@ -8,6 +8,15 @@
     <body>
         <h1>This is RSS Page</h1>
         <p>Welcome to RSS</p>
+        <div class='rss_list'>
+            {% for rss in rss_list %}
+                <div class='rss'>
+                    <h2><a href="#"> {{rss.title}}</a></h2>
+                    <a href="{{rss.link}}">{{rss.link}}</a>     
+                </div>
+            {% endfor %}
+
+        </div>
     </body>
 
 </html>
