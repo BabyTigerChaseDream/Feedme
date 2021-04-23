@@ -8,4 +8,11 @@ def rss_list(request):
     return render(request, 
                   'rss/rss_list.html',
                   {'rss_list':rss_list}
-                  )
+            )
+
+def artical_list(request):
+    artical_list = Articles.objects.all().groupby('title')
+    return render(request, 
+                  'rss/artical_list.html',
+                  {'artical_list':artical_list}
+            )
