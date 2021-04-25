@@ -17,10 +17,14 @@ class Rss(models.Model):
         return self.title 
 
 class Articles(models.Model):
-    title = models.CharField(max_length=100)
-    retrieve_date = models.DateTimeField(auto_now_add=True)
-    authors = models.CharField(max_length=50)
+    title = models.CharField(max_length=200)
+    authors = models.CharField(max_length=100)
     description = models.TextField()
     link = models.URLField()
-    publish_date = models.DateTimeField()
-    href = models.URLField()
+    #publish_date = models.DateTimeField()
+    feedurl = models.URLField()
+
+    def __str__(self):
+        return self.title 
+
+
