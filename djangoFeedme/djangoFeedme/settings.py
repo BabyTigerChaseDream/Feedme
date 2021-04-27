@@ -83,6 +83,9 @@ DATABASES = {
         'PASSWORD':'12345678',
         'HOST':'',
         'PORT':'',
+        'OPTIONS': {
+            'charset': 'utf8'  # This is the important line
+        }
     }
 }
 
