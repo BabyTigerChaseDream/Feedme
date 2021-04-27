@@ -21,7 +21,7 @@ class Articles(models.Model):
     authors = models.CharField(max_length=100)
     description = models.TextField()
     link = models.URLField()
-    #publish_date = models.DateTimeField()
+    publish_date = models.DateTimeField()
     feedurl = models.URLField()
 
     def __str__(self):

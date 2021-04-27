@@ -4,6 +4,6 @@ from . import views
 
 urlpatterns = [
     re_path(r'^$', views.rss_list),
-    re_path(r'^haha$', views.rss_list),
+    re_path(r'^article$', views.article_list),
 
 ]

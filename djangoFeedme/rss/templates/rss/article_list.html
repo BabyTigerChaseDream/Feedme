@@ -6,14 +6,17 @@
     </head>
 
     <body>
-        <h1>This is RSS Page</h1>
-        <p>Welcome to RSS</p>
-        <div class='rss_list'>
-            {% for rss in rss_list %}
-                <div class='rss'>
-                    <h2><a href="#"> {{rss.title}}</a></h2>
-                    <a href="{{rss.link}}">{{rss.link}}</a>     
-                    <p>{{rss.date}}</p>     
+        <h1>This is Article List</h1>
+
+        <div class='article_list'>
+            {% for article in article_list %}
+                <div class='article'>
+                    <h3><a href="{{article.link}}">{{article.title}}</a></h3>     
+                    <p> 
+                        <b> Date </b> {{article.publish_date}}</b> 
+                        <a href="{{article.feedurl}}"> <b>Feed</b> </a> 
+                    
+                    </p>     
                 </div>
             {% endfor %}
 

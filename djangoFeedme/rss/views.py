@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Rss
+from .models import Rss,Articles
 
 # Create your views here.
 
@@ -10,9 +10,9 @@ def rss_list(request):
                   {'rss_list':rss_list}
             )
 
-def artical_list(request):
-    artical_list = Articles.objects.all().groupby('title')
+def article_list(request):
+    article_list = Articles.objects.all().order_by('feedurl')
     return render(request, 
-                  'rss/artical_list.html',
-                  {'artical_list':artical_list}
+                  'rss/article_list.html',
+                  {'article_list':article_list}
             )

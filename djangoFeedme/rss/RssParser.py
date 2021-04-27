@@ -63,7 +63,7 @@ class RSSFeed():
                 authors = a.authors,
                 description = a.description,
                 link = a.link,
-                #publish_date = a.publish_date,
+                publish_date = a.publish_date,
                 feedurl = a.feedurl
                 )
         except Exception as e:
@@ -78,7 +78,7 @@ class RSSFeed():
                     authors = a.authors,
                     description = a.description,
                     link = a.link,
-                    #publish_date = a.publish_date,
+                    publish_date = a.publish_date,
                     feedurl = a.feedurl
                     )
             except Exception as e:
