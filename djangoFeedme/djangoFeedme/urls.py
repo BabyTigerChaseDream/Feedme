@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import re_path, include
 from . import views
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     re_path(r'^admin/', admin.site.urls),
@@ -24,3 +25,5 @@ urlpatterns = [
     re_path(r'^rss/',include('rss.urls')),
 
 ]
+
+urlpatterns += staticfiles_urlpatterns()
