@@ -23,7 +23,7 @@ urlpatterns = [
     re_path(r'^about/$',views.about),
     re_path(r'^$',views.homepage),
     re_path(r'^rss/',include('rss.urls')),
-
+    re_path(r'^accounts/',include('accounts.urls')),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
