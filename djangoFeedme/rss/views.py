@@ -1,6 +1,8 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Rss,Articles
 from django.http import HttpResponse
+from django.contrib.auth.decorators import login_required
+from . import forms
 
 # Create your views here.
 
@@ -25,3 +27,16 @@ def article_list(request):
                   'rss/article_list.html',
                   {'article_list':article_list}
             )
+@login_required(login_url="/accounts/login")
+def rss_create(request):
+    if request.method=='POST':
+        form = forms.CreateRss(request.POST)
+        if form.is_valid():
+            # save rss to DB
+            instance = form.save(commit=False)
+            instance.owner = request.user
+            instance.save()
+            return redirect('rss:list')
+    else:
+        form = forms.CreateRss()
+    return render(request, 'rss/rss_create.html', {'form':form})

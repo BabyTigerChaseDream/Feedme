@@ -1,0 +1,13 @@
+{% extends 'base_layout.html'%}
+
+{% block content %}
+<div class="create-article">
+        <h1> Please add your RSS </h1>
+        <form class='site-form' action="{% url 'rss:create' %}" method="POST">
+                {% csrf_token %}
+                {{form}}
+                <input type="submit" value='Add'>
+        </form>
+</div>
+
+{% endblock %}

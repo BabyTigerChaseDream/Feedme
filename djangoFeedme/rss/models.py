@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Note : each time changes made to this file , pls run 2 commands below :
 # 1) python3 manage.py makemigrations
@@ -11,6 +12,7 @@ class Rss(models.Model):
     link = models.URLField()
     date = models.DateTimeField(auto_now_add=True)
     slug = models.SlugField()
+    owner = models.ForeignKey(User, on_delete=models.CASCADE, default=None)
 
 
     def __str__(self):
