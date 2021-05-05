@@ -10,5 +10,6 @@ urlpatterns = [
     re_path(r'^create$', views.rss_create, name='create'),
     re_path(r'^(?P<slug>[\w-]+)/$', views.rss_detail, name='detail'),
     re_path(r'^article$', views.article_list, name='article'),
+    re_path(r'^retrieve$', views.article_retrieve, name='retrieve'),
 
 ]

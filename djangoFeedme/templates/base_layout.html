@@ -10,7 +10,7 @@
 
     <body>
         <div class="wrapper">
-            <h1><a href="#"><img src="{% static 'logo.png' %}" /></a></h1>
+            <h1><a href="{% url 'home' %}"><img src="{% static 'logo.png' %}" /></a></h1>
             <nav>
                 <ul>
                     {% if user.is_authenticated %}
@@ -20,7 +20,9 @@
                             <button type='submit'>Logout</button>
                         </form>
                     </li>
-                    <li><a href="{% url 'rss:create' %}" class="highlight">New Article</a></li>
+                    <li><a href="{% url 'rss:create' %}" class="highlight">New RSS</a></li>
+                    <li><a href="{% url 'rss:article' %}" class="highlight">Article List</a></li>
+                    <li><a href="{% url 'rss:retrieve' %}" class="highlight">Retrieve</a></li>
                     {% else %}
                         <li><a href="{% url 'accounts:login' %}">Login</a></li>
                         <li><a href="{% url 'accounts:signup' %}">Signup</a></li>
