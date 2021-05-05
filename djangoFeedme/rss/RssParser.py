@@ -67,7 +67,10 @@ class RSSFeed():
                 feedurl = a.feedurl
                 )
         except Exception as e:
-            print (" ****> Error on {e}".format(e=e) )       
+                if "Duplicate" in e:
+                   pass 
+                else:
+                    print (" ****> {e}".format(e=e) )              
 
     def save_all(self):
         A= Articles
@@ -82,5 +85,8 @@ class RSSFeed():
                     feedurl = a.feedurl
                     )
             except Exception as e:
-                print (" ****> Error on {e}".format(e=e) )                
+                if "Duplicate" in e:
+                    continue
+                else:
+                    print (" ****> {e}".format(e=e) )                
 
