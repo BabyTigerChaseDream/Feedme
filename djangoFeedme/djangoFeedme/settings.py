@@ -28,7 +28,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -82,9 +81,10 @@ DATABASES = {
         'NAME':'Feedme',
         'ENGINE':'django.db.backends.mysql',
         'USER':'feedme',
+        #'USER':'root',
         'PASSWORD':'12345678',
-        'HOST':'',
-        'PORT':'',
+        'HOST':'db',
+        'PORT':'3306',
         'OPTIONS': {
             'charset': 'utf8'  # This is the important line
         }

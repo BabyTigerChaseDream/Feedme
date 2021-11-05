@@ -1,0 +1,31 @@
+version: '3.7'
+
+services:
+  db:
+    container_name: 'db'
+    image: mysql:latest
+    ports:
+      - '3307:3306'
+    environment:
+       -  MYSQL_DATABASE=Feedme
+       -  MYSQL_PASSWORD=12345678
+       -  MYSQL_ROOT_PASSWORD=123456
+    volumes:
+      - './docker/volumn/mysql:/var/lib/mysql'
+    #command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']  
+  app:
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    build: 
+      context: .
+      network: host
+    ports:
+      - "8888:8888"
+    volumes: 
+      - ./djangoFeedme:/djangoFeedme
+    command: sh -c "python manage.py runserver 0.0.0.0:8888"
+    environment:
+      - DEBUG=1
+#volumes:
+#  db:
+    
