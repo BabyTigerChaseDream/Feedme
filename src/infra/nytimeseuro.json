@@ -1,0 +1,2900 @@
+{
+  "data": {
+    "legacyCollection": {
+      "id": "TGVnYWN5Q29sbGVjdGlvbjpueXQ6Ly9sZWdhY3ljb2xsZWN0aW9uLzVlZGY2OTQ0LTg3YTAtNTVlMS1iN2IxLTUxODIyMjU2NDMzMQ==",
+      "collectionType": "SECTION",
+      "slug": "europe",
+      "name": "Europe",
+      "tone": "NEWS",
+      "showPicture": false,
+      "longDescription": "The latest news, analysis and investigations from Europe.",
+      "bylines": [],
+      "section": {
+        "id": "U2VjdGlvbjpueXQ6Ly9zZWN0aW9uLzcwZTg2NWI2LWNjNzAtNTE4MS04NGM5LTgzNjhiM2E1YzM0Yg==",
+        "name": "world",
+        "__typename": "Section",
+        "displayName": "World",
+        "url": "/section/world"
+      },
+      "subsection": {
+        "id": "U2VjdGlvbjpueXQ6Ly9zZWN0aW9uLzJmOThiODBkLWVhMjUtNTMxMS05ODk4LTY2ODRiYmJkZDBiYw==",
+        "name": "europe",
+        "__typename": "Section",
+        "displayName": "Europe",
+        "url": "/section/world/europe"
+      },
+      "advertisingProperties": {
+        "sensitivity": "SHOW_ADS",
+        "sponsored": false,
+        "__typename": "CreativeWorkAdvertisingProperties"
+      },
+      "adTargetingParams": [
+        {
+          "key": "als_test",
+          "value": "1650680925709",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "prop",
+          "value": "nyt",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "plat",
+          "value": "web",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "edn",
+          "value": "us",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "brandsensitive",
+          "value": "false",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "per",
+          "value": "",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "org",
+          "value": "",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "geo",
+          "value": "",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "des",
+          "value": "",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "spon",
+          "value": "",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "auth",
+          "value": "",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "col",
+          "value": "",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "coll",
+          "value": "",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "artlen",
+          "value": "short",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "ledemedsz",
+          "value": "none",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "gui",
+          "value": "",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "template",
+          "value": "legacycollection",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "typ",
+          "value": "",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "section",
+          "value": "world",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "si_section",
+          "value": "world",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "id",
+          "value": "100000004047788",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "trend",
+          "value": "",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "pt",
+          "value": "",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "gscat",
+          "value": "neg_ibmtest,neg_citi_aa,gs_sport,neg_capitalone,gs_sport_soccer,neg_ibm,neg_chanel,gt_positive_happiness,gs_event_copa_america,gs_news_and_weather,gs_event_fourth_july,gs_sport_misc,gs_news,msnbc_q3_2019,neg_trpavd,neg_victims,neg_am,neg_debeer,neg_rms,neg_ts,gv_safe,gs_t",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "tt",
+          "value": "",
+          "__typename": "AdTargetingParam"
+        },
+        {
+          "key": "mt",
+          "value": "",
+          "__typename": "AdTargetingParam"
+        }
+      ],
+      "dfpTaxonomyException": "world/europe/sectionfront",
+      "collectionsPage": {
+        "embeddedCollections": [],
+        "__typename": "LegacyCollectionsPage",
+        "stream": {
+          "pageInfo": {
+            "hasNextPage": true,
+            "hasPreviousPage": false,
+            "startCursor": "YXJyYXljb25uZWN0aW9uOjA=",
+            "endCursor": "YXJyYXljb25uZWN0aW9uOjQ=",
+            "__typename": "PageInfo"
+          },
+          "__typename": "AssetsConnection",
+          "edges": [
+            {
+              "node": {
+                "__typename": "Article",
+                "id": "QXJ0aWNsZTpueXQ6Ly9hcnRpY2xlLzRiOThjYjc1LTZmZjMtNWZjNC1hMjAxLWU1YTUzN2YyOTAzMA==",
+                "url": "https://www.nytimes.com/2022/04/22/magazine/ruscism-ukraine-russia-war.html",
+                "firstPublished": "2022-04-22T22:45:49.015Z",
+                "typeOfMaterials": [
+                  "News"
+                ],
+                "archiveProperties": {
+                  "lede": "",
+                  "__typename": "ArticleArchiveProperties"
+                },
+                "headline": {
+                  "default": "The War in Ukraine Has Unleashed a New Word",
+                  "__typename": "CreativeWorkHeadline"
+                },
+                "bylines": [
+                  {
+                    "renderedRepresentation": "By Timothy Snyder",
+                    "prefix": "By",
+                    "creators": [
+                      {
+                        "id": "UGVyc29uOm55dDovL3BlcnNvbi9jMWE2NjY0Yy0yZTAzLTUwNmItODRmYi0zMDgyY2MyNDc1YzQ=",
+                        "displayName": "Timothy Snyder",
+                        "url": "",
+                        "promotionalMedia": null,
+                        "__typename": "Person"
+                      }
+                    ],
+                    "__typename": "Byline"
+                  }
+                ],
+                "kicker": "",
+                "summary": "In a creative play on three different languages, Ukrainians identify an enemy: ‘ruscism.’",
+                "promotionalMedia": {
+                  "__typename": "Image",
+                  "id": "SW1hZ2U6bnl0Oi8vaW1hZ2UvYTNlYmZlZTAtOGQyYy01YTU0LWIxZjUtMjYwN2RjZTFlNTEw",
+                  "crops": [
+                    {
+                      "name": "THREE_BY_TWO",
+                      "renditions": [
+                        {
+                          "width": 190,
+                          "url": "https://static01.nyt.com/images/2022/05/01/magazine/01Mag-Ruscism-1/01Mag-Ruscism-1-thumbWide.jpg",
+                          "name": "thumbWide",
+                          "height": 126,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 75,
+                          "url": "https://static01.nyt.com/images/2022/05/01/magazine/01Mag-Ruscism-1/01Mag-Ruscism-1-videoThumb.jpg",
+                          "name": "videoThumb",
+                          "height": 50,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 768,
+                          "url": "https://static01.nyt.com/images/2022/05/01/magazine/01Mag-Ruscism-1/01Mag-Ruscism-1-videoLarge.jpg",
+                          "name": "videoLarge",
+                          "height": 507,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 210,
+                          "url": "https://static01.nyt.com/images/2022/05/01/magazine/01Mag-Ruscism-1/01Mag-Ruscism-1-mediumThreeByTwo210.jpg",
+                          "name": "mediumThreeByTwo210",
+                          "height": 140,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 225,
+                          "url": "https://static01.nyt.com/images/2022/05/01/magazine/01Mag-Ruscism-1/01Mag-Ruscism-1-mediumThreeByTwo225.jpg",
+                          "name": "mediumThreeByTwo225",
+                          "height": 150,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 440,
+                          "url": "https://static01.nyt.com/images/2022/05/01/magazine/01Mag-Ruscism-1/01Mag-Ruscism-1-mediumThreeByTwo440.jpg",
+                          "name": "mediumThreeByTwo440",
+                          "height": 293,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 252,
+                          "url": "https://static01.nyt.com/images/2022/05/01/magazine/01Mag-Ruscism-1/01Mag-Ruscism-1-mediumThreeByTwo252.jpg",
+                          "name": "mediumThreeByTwo252",
+                          "height": 168,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 378,
+                          "url": "https://static01.nyt.com/images/2022/05/01/magazine/01Mag-Ruscism-1/01Mag-Ruscism-1-mediumThreeByTwo378.jpg",
+                          "name": "mediumThreeByTwo378",
+                          "height": 252,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 10980,
+                          "url": "https://static01.nyt.com/images/2022/05/01/magazine/01Mag-Ruscism-1/01Mag-Ruscism-1-threeByTwoLargeAt2X.jpg",
+                          "name": "threeByTwoLargeAt2X",
+                          "height": 7320,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 1500,
+                          "url": "https://static01.nyt.com/images/2022/05/01/magazine/01Mag-Ruscism-1/01Mag-Ruscism-1-threeByTwoMediumAt2X.jpg",
+                          "name": "threeByTwoMediumAt2X",
+                          "height": 1000,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 600,
+                          "url": "https://static01.nyt.com/images/2022/05/01/magazine/01Mag-Ruscism-1/01Mag-Ruscism-1-threeByTwoSmallAt2X.jpg",
+                          "name": "threeByTwoSmallAt2X",
+                          "height": 400,
+                          "__typename": "ImageRendition"
+                        }
+                      ],
+                      "__typename": "ImageCrop"
+                    }
+                  ]
+                },
+                "translations": []
+              },
+              "__typename": "AssetsEdge"
+            },
+            {
+              "node": {
+                "__typename": "Article",
+                "id": "QXJ0aWNsZTpueXQ6Ly9hcnRpY2xlL2MwYjIwYTI1LTA3MzMtNTJkOC04YjY0LTk1M2NkOTUwMTY2YQ==",
+                "url": "https://www.nytimes.com/2022/04/22/world/europe/russia-ukraine-fighting-east.html",
+                "firstPublished": "2022-04-22T22:30:52.000Z",
+                "typeOfMaterials": [
+                  "News"
+                ],
+                "archiveProperties": {
+                  "lede": "",
+                  "__typename": "ArticleArchiveProperties"
+                },
+                "headline": {
+                  "default": "Russians Seize 42 Towns in Eastern Ukraine as Fighting Intensifies",
+                  "__typename": "CreativeWorkHeadline"
+                },
+                "bylines": [
+                  {
+                    "renderedRepresentation": "By Anton Troianovski, Ivan Nechepurenko and Michael Levenson",
+                    "prefix": "By",
+                    "creators": [
+                      {
+                        "id": "UGVyc29uOm55dDovL3BlcnNvbi8xNjcyOTdkMi0wMTUzLTUzZTctYWE5ZC1lYWNlOTdlM2U2MDY=",
+                        "displayName": "Anton Troianovski",
+                        "url": "",
+                        "promotionalMedia": {
+                          "id": "SW1hZ2U6bnl0Oi8vaW1hZ2UvNjA4OWM3NDYtM2ViYS01MDlmLTllYTktMzY1ZTY1Y2Y2Mzg5",
+                          "crops": [
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-articleLarge.png",
+                                  "name": "articleLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-popup.png",
+                                  "name": "popup",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-blog480.png",
+                                  "name": "blog480",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-blog533.png",
+                                  "name": "blog533",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-blog427.png",
+                                  "name": "blog427",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-tmagSF.png",
+                                  "name": "tmagSF",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-tmagArticle.png",
+                                  "name": "tmagArticle",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-slide.png",
+                                  "name": "slide",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-jumbo.png",
+                                  "name": "jumbo",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-superJumbo.png",
+                                  "name": "superJumbo",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-blog225.png",
+                                  "name": "blog225",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-master675.png",
+                                  "name": "master675",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-master495.png",
+                                  "name": "master495",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-master180.png",
+                                  "name": "master180",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-master315.png",
+                                  "name": "master315",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-master768.png",
+                                  "name": "master768",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-thumbStandard.png",
+                                  "name": "thumbStandard",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-blogSmallThumb.png",
+                                  "name": "blogSmallThumb",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-thumbLarge.png",
+                                  "name": "thumbLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-smallSquare168.png",
+                                  "name": "smallSquare168",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-smallSquare252.png",
+                                  "name": "smallSquare252",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-square320.png",
+                                  "name": "square320",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-moth.png",
+                                  "name": "moth",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-filmstrip.png",
+                                  "name": "filmstrip",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-square640.png",
+                                  "name": "square640",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-mediumSquare149.png",
+                                  "name": "mediumSquare149",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-sfSpan.png",
+                                  "name": "sfSpan",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-largeHorizontal375.png",
+                                  "name": "largeHorizontal375",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-largeHorizontalJumbo.png",
+                                  "name": "largeHorizontalJumbo",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-horizontalMediumAt2X.png",
+                                  "name": "horizontalMediumAt2X",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-hpLarge.png",
+                                  "name": "hpLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-largeWidescreen573.png",
+                                  "name": "largeWidescreen573",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-thumbWide.png",
+                                  "name": "thumbWide",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-videoThumb.png",
+                                  "name": "videoThumb",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-videoLarge.png",
+                                  "name": "videoLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-mediumThreeByTwo210.png",
+                                  "name": "mediumThreeByTwo210",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-mediumThreeByTwo225.png",
+                                  "name": "mediumThreeByTwo225",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-mediumThreeByTwo440.png",
+                                  "name": "mediumThreeByTwo440",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-mediumThreeByTwo252.png",
+                                  "name": "mediumThreeByTwo252",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-mediumThreeByTwo378.png",
+                                  "name": "mediumThreeByTwo378",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-threeByTwoLargeAt2X.png",
+                                  "name": "threeByTwoLargeAt2X",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-threeByTwoMediumAt2X.png",
+                                  "name": "threeByTwoMediumAt2X",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-threeByTwoSmallAt2X.png",
+                                  "name": "threeByTwoSmallAt2X",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-articleInline.png",
+                                  "name": "articleInline",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-hpSmall.png",
+                                  "name": "hpSmall",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-blogSmallInline.png",
+                                  "name": "blogSmallInline",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-mediumFlexible177.png",
+                                  "name": "mediumFlexible177",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-videoSmall.png",
+                                  "name": "videoSmall",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-videoHpMedium.png",
+                                  "name": "videoHpMedium",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-videoSixteenByNine600.png",
+                                  "name": "videoSixteenByNine600",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-videoSixteenByNine540.png",
+                                  "name": "videoSixteenByNine540",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-videoSixteenByNine495.png",
+                                  "name": "videoSixteenByNine495",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-videoSixteenByNine390.png",
+                                  "name": "videoSixteenByNine390",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-videoSixteenByNine480.png",
+                                  "name": "videoSixteenByNine480",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-videoSixteenByNine310.png",
+                                  "name": "videoSixteenByNine310",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-videoSixteenByNine225.png",
+                                  "name": "videoSixteenByNine225",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-videoSixteenByNine96.png",
+                                  "name": "videoSixteenByNine96",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-videoSixteenByNine768.png",
+                                  "name": "videoSixteenByNine768",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-videoSixteenByNine150.png",
+                                  "name": "videoSixteenByNine150",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-videoSixteenByNineJumbo1600.png",
+                                  "name": "videoSixteenByNineJumbo1600",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-miniMoth.png",
+                                  "name": "miniMoth",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-windowsTile336H.png",
+                                  "name": "windowsTile336H",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-facebookJumbo.png",
+                                  "name": "facebookJumbo",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-watch308.png",
+                                  "name": "watch308",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2019/09/24/reader-center/author-anton-troianovski/author-anton-troianovski-watch268.png",
+                                  "name": "watch268",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [],
+                              "__typename": "ImageCrop"
+                            }
+                          ],
+                          "__typename": "Image"
+                        },
+                        "__typename": "Person"
+                      },
+                      {
+                        "id": "UGVyc29uOm55dDovL3BlcnNvbi80NmQzYmE1Ny1kMGJjLTU3NjItODFjOC1jMjYzMWIyZGQ5MGU=",
+                        "displayName": "Ivan Nechepurenko",
+                        "url": "",
+                        "promotionalMedia": {
+                          "id": "SW1hZ2U6bnl0Oi8vaW1hZ2UvZGNkYjc0MTktNzBmMy01NDhjLWExNjctZTliYjAwMDRmYmY3",
+                          "crops": [
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-articleLarge.png",
+                                  "name": "articleLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-popup.png",
+                                  "name": "popup",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-blog480.png",
+                                  "name": "blog480",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-blog533.png",
+                                  "name": "blog533",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-blog427.png",
+                                  "name": "blog427",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-tmagSF.png",
+                                  "name": "tmagSF",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-tmagArticle.png",
+                                  "name": "tmagArticle",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-slide.png",
+                                  "name": "slide",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-jumbo.png",
+                                  "name": "jumbo",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-superJumbo.png",
+                                  "name": "superJumbo",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-blog225.png",
+                                  "name": "blog225",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-master675.png",
+                                  "name": "master675",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-master495.png",
+                                  "name": "master495",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-master180.png",
+                                  "name": "master180",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-master315.png",
+                                  "name": "master315",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-master768.png",
+                                  "name": "master768",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-thumbStandard.png",
+                                  "name": "thumbStandard",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-blogSmallThumb.png",
+                                  "name": "blogSmallThumb",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-thumbLarge.png",
+                                  "name": "thumbLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-smallSquare168.png",
+                                  "name": "smallSquare168",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-smallSquare252.png",
+                                  "name": "smallSquare252",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-square320.png",
+                                  "name": "square320",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-moth.png",
+                                  "name": "moth",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-filmstrip.png",
+                                  "name": "filmstrip",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-square640.png",
+                                  "name": "square640",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-mediumSquare149.png",
+                                  "name": "mediumSquare149",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-sfSpan.png",
+                                  "name": "sfSpan",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-largeHorizontal375.png",
+                                  "name": "largeHorizontal375",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-largeHorizontalJumbo.png",
+                                  "name": "largeHorizontalJumbo",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-horizontalMediumAt2X.png",
+                                  "name": "horizontalMediumAt2X",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-hpLarge.png",
+                                  "name": "hpLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-largeWidescreen573.png",
+                                  "name": "largeWidescreen573",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-largeWidescreen1050.png",
+                                  "name": "largeWidescreen1050",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-thumbWide.png",
+                                  "name": "thumbWide",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-videoThumb.png",
+                                  "name": "videoThumb",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-videoLarge.png",
+                                  "name": "videoLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-mediumThreeByTwo210.png",
+                                  "name": "mediumThreeByTwo210",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-mediumThreeByTwo225.png",
+                                  "name": "mediumThreeByTwo225",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-mediumThreeByTwo440.png",
+                                  "name": "mediumThreeByTwo440",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-mediumThreeByTwo252.png",
+                                  "name": "mediumThreeByTwo252",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-mediumThreeByTwo378.png",
+                                  "name": "mediumThreeByTwo378",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-threeByTwoLargeAt2X.png",
+                                  "name": "threeByTwoLargeAt2X",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-threeByTwoMediumAt2X.png",
+                                  "name": "threeByTwoMediumAt2X",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-threeByTwoSmallAt2X.png",
+                                  "name": "threeByTwoSmallAt2X",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-articleInline.png",
+                                  "name": "articleInline",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-hpSmall.png",
+                                  "name": "hpSmall",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-blogSmallInline.png",
+                                  "name": "blogSmallInline",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-mediumFlexible177.png",
+                                  "name": "mediumFlexible177",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-videoSmall.png",
+                                  "name": "videoSmall",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-videoHpMedium.png",
+                                  "name": "videoHpMedium",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-videoSixteenByNine600.png",
+                                  "name": "videoSixteenByNine600",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-videoSixteenByNine540.png",
+                                  "name": "videoSixteenByNine540",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-videoSixteenByNine495.png",
+                                  "name": "videoSixteenByNine495",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-videoSixteenByNine390.png",
+                                  "name": "videoSixteenByNine390",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-videoSixteenByNine1050.png",
+                                  "name": "videoSixteenByNine1050",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-videoSixteenByNine480.png",
+                                  "name": "videoSixteenByNine480",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-videoSixteenByNine310.png",
+                                  "name": "videoSixteenByNine310",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-videoSixteenByNine225.png",
+                                  "name": "videoSixteenByNine225",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-videoSixteenByNine96.png",
+                                  "name": "videoSixteenByNine96",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-videoSixteenByNine768.png",
+                                  "name": "videoSixteenByNine768",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-videoSixteenByNine150.png",
+                                  "name": "videoSixteenByNine150",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-videoSixteenByNineJumbo1600.png",
+                                  "name": "videoSixteenByNineJumbo1600",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-miniMoth.png",
+                                  "name": "miniMoth",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-windowsTile336H.png",
+                                  "name": "windowsTile336H",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-videoFifteenBySeven1305.png",
+                                  "name": "videoFifteenBySeven1305",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-facebookJumbo.png",
+                                  "name": "facebookJumbo",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-watch308.png",
+                                  "name": "watch308",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/18/multimedia/author-ivan-nechepurenko/author-ivan-nechepurenko-watch268.png",
+                                  "name": "watch268",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [],
+                              "__typename": "ImageCrop"
+                            }
+                          ],
+                          "__typename": "Image"
+                        },
+                        "__typename": "Person"
+                      },
+                      {
+                        "id": "UGVyc29uOm55dDovL3BlcnNvbi9iODg2YWE5Yi03YTg5LTU0YzQtODAyZi05ZTJhZjI0MjFjZDk=",
+                        "displayName": "Michael Levenson",
+                        "url": "",
+                        "promotionalMedia": null,
+                        "__typename": "Person"
+                      }
+                    ],
+                    "__typename": "Byline"
+                  }
+                ],
+                "kicker": "",
+                "summary": "Ukrainian military officials vowed to reverse Russia’s territorial gains in what was turning into a grinding back-and-forth struggle along a front stretching more than 300 miles.",
+                "promotionalMedia": {
+                  "__typename": "Image",
+                  "id": "SW1hZ2U6bnl0Oi8vaW1hZ2UvYmVjMWE2ZDctMzMzNy01NjdjLTgxNmQtMjQ2NWJlM2UyMWQ5",
+                  "crops": [
+                    {
+                      "name": "THREE_BY_TWO",
+                      "renditions": [
+                        {
+                          "width": 190,
+                          "url": "https://static01.nyt.com/images/2022/04/22/world/22ukraine-blog-ledeall/merlin_205810716_d43fd420-e199-4ba6-b235-ba349896b901-thumbWide.jpg",
+                          "name": "thumbWide",
+                          "height": 126,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 75,
+                          "url": "https://static01.nyt.com/images/2022/04/22/world/22ukraine-blog-ledeall/merlin_205810716_d43fd420-e199-4ba6-b235-ba349896b901-videoThumb.jpg",
+                          "name": "videoThumb",
+                          "height": 50,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 768,
+                          "url": "https://static01.nyt.com/images/2022/04/22/world/22ukraine-blog-ledeall/merlin_205810716_d43fd420-e199-4ba6-b235-ba349896b901-videoLarge.jpg",
+                          "name": "videoLarge",
+                          "height": 507,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 210,
+                          "url": "https://static01.nyt.com/images/2022/04/22/world/22ukraine-blog-ledeall/merlin_205810716_d43fd420-e199-4ba6-b235-ba349896b901-mediumThreeByTwo210.jpg",
+                          "name": "mediumThreeByTwo210",
+                          "height": 140,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 225,
+                          "url": "https://static01.nyt.com/images/2022/04/22/world/22ukraine-blog-ledeall/merlin_205810716_d43fd420-e199-4ba6-b235-ba349896b901-mediumThreeByTwo225.jpg",
+                          "name": "mediumThreeByTwo225",
+                          "height": 150,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 440,
+                          "url": "https://static01.nyt.com/images/2022/04/22/world/22ukraine-blog-ledeall/merlin_205810716_d43fd420-e199-4ba6-b235-ba349896b901-mediumThreeByTwo440.jpg",
+                          "name": "mediumThreeByTwo440",
+                          "height": 293,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 252,
+                          "url": "https://static01.nyt.com/images/2022/04/22/world/22ukraine-blog-ledeall/merlin_205810716_d43fd420-e199-4ba6-b235-ba349896b901-mediumThreeByTwo252.jpg",
+                          "name": "mediumThreeByTwo252",
+                          "height": 168,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 378,
+                          "url": "https://static01.nyt.com/images/2022/04/22/world/22ukraine-blog-ledeall/merlin_205810716_d43fd420-e199-4ba6-b235-ba349896b901-mediumThreeByTwo378.jpg",
+                          "name": "mediumThreeByTwo378",
+                          "height": 252,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 5472,
+                          "url": "https://static01.nyt.com/images/2022/04/22/world/22ukraine-blog-ledeall/merlin_205810716_d43fd420-e199-4ba6-b235-ba349896b901-threeByTwoLargeAt2X.jpg",
+                          "name": "threeByTwoLargeAt2X",
+                          "height": 3648,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 1500,
+                          "url": "https://static01.nyt.com/images/2022/04/22/world/22ukraine-blog-ledeall/merlin_205810716_d43fd420-e199-4ba6-b235-ba349896b901-threeByTwoMediumAt2X.jpg",
+                          "name": "threeByTwoMediumAt2X",
+                          "height": 1000,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 600,
+                          "url": "https://static01.nyt.com/images/2022/04/22/world/22ukraine-blog-ledeall/merlin_205810716_d43fd420-e199-4ba6-b235-ba349896b901-threeByTwoSmallAt2X.jpg",
+                          "name": "threeByTwoSmallAt2X",
+                          "height": 400,
+                          "__typename": "ImageRendition"
+                        }
+                      ],
+                      "__typename": "ImageCrop"
+                    }
+                  ]
+                },
+                "translations": []
+              },
+              "__typename": "AssetsEdge"
+            },
+            {
+              "node": {
+                "__typename": "Article",
+                "id": "QXJ0aWNsZTpueXQ6Ly9hcnRpY2xlLzgzMGE3NmVjLWVkNTMtNTJlMy1iODJmLWEyMmYyNTA0ZWMyNQ==",
+                "url": "https://www.nytimes.com/2022/04/22/world/europe/ukraine-front-line-zaporizhzhya.html",
+                "firstPublished": "2022-04-22T19:48:07.000Z",
+                "typeOfMaterials": [
+                  "News"
+                ],
+                "archiveProperties": {
+                  "lede": "",
+                  "__typename": "ArticleArchiveProperties"
+                },
+                "headline": {
+                  "default": "Dug in on the front lines, Ukrainian soldiers fight to repel the Russian onslaught.",
+                  "__typename": "CreativeWorkHeadline"
+                },
+                "bylines": [
+                  {
+                    "renderedRepresentation": "By Michael Schwirtz",
+                    "prefix": "By",
+                    "creators": [
+                      {
+                        "id": "UGVyc29uOm55dDovL3BlcnNvbi8xZjRkMTA4Mi1lNWQ4LTU1MTEtOGIwNi1kZDA2ZTcwZjRiMTU=",
+                        "displayName": "Michael Schwirtz",
+                        "url": "",
+                        "promotionalMedia": {
+                          "id": "SW1hZ2U6bnl0Oi8vaW1hZ2UvZmQzOWMyMWItMGM1MC01ZTkyLTgyM2EtNTNlZjMxZjFjZWVi",
+                          "crops": [
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-articleLarge-v2.jpg",
+                                  "name": "articleLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-popup-v2.jpg",
+                                  "name": "popup",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-blog480-v2.jpg",
+                                  "name": "blog480",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-blog533-v2.jpg",
+                                  "name": "blog533",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-blog427-v2.jpg",
+                                  "name": "blog427",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-tmagSF-v2.jpg",
+                                  "name": "tmagSF",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-tmagArticle-v2.jpg",
+                                  "name": "tmagArticle",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-slide-v2.jpg",
+                                  "name": "slide",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-jumbo-v2.jpg",
+                                  "name": "jumbo",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-superJumbo-v2.jpg",
+                                  "name": "superJumbo",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-blog225-v2.jpg",
+                                  "name": "blog225",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-master675-v2.jpg",
+                                  "name": "master675",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-master495-v2.jpg",
+                                  "name": "master495",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-master180-v2.jpg",
+                                  "name": "master180",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-master315-v2.jpg",
+                                  "name": "master315",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-master768-v2.jpg",
+                                  "name": "master768",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-thumbStandard-v2.jpg",
+                                  "name": "thumbStandard",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-blogSmallThumb-v2.jpg",
+                                  "name": "blogSmallThumb",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-thumbLarge-v2.jpg",
+                                  "name": "thumbLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-smallSquare168-v2.jpg",
+                                  "name": "smallSquare168",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-smallSquare252-v2.jpg",
+                                  "name": "smallSquare252",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-square320-v2.jpg",
+                                  "name": "square320",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-moth-v2.jpg",
+                                  "name": "moth",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-filmstrip-v2.jpg",
+                                  "name": "filmstrip",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-square640-v2.jpg",
+                                  "name": "square640",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-mediumSquare149-v2.jpg",
+                                  "name": "mediumSquare149",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-sfSpan-v2.jpg",
+                                  "name": "sfSpan",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-largeHorizontal375-v2.jpg",
+                                  "name": "largeHorizontal375",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-largeHorizontalJumbo-v2.jpg",
+                                  "name": "largeHorizontalJumbo",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-horizontalMediumAt2X-v2.jpg",
+                                  "name": "horizontalMediumAt2X",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-hpLarge-v2.jpg",
+                                  "name": "hpLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-largeWidescreen573-v2.jpg",
+                                  "name": "largeWidescreen573",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-thumbWide-v2.jpg",
+                                  "name": "thumbWide",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-videoThumb-v2.jpg",
+                                  "name": "videoThumb",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-videoLarge-v2.jpg",
+                                  "name": "videoLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-mediumThreeByTwo210-v2.jpg",
+                                  "name": "mediumThreeByTwo210",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-mediumThreeByTwo225-v2.jpg",
+                                  "name": "mediumThreeByTwo225",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-mediumThreeByTwo440-v2.jpg",
+                                  "name": "mediumThreeByTwo440",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-mediumThreeByTwo252-v2.jpg",
+                                  "name": "mediumThreeByTwo252",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-mediumThreeByTwo378-v2.jpg",
+                                  "name": "mediumThreeByTwo378",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-threeByTwoLargeAt2X-v2.jpg",
+                                  "name": "threeByTwoLargeAt2X",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-threeByTwoMediumAt2X-v2.jpg",
+                                  "name": "threeByTwoMediumAt2X",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-threeByTwoSmallAt2X-v2.jpg",
+                                  "name": "threeByTwoSmallAt2X",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-articleInline-v2.jpg",
+                                  "name": "articleInline",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-hpSmall-v2.jpg",
+                                  "name": "hpSmall",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-blogSmallInline-v2.jpg",
+                                  "name": "blogSmallInline",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-mediumFlexible177-v2.jpg",
+                                  "name": "mediumFlexible177",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-videoSmall-v2.jpg",
+                                  "name": "videoSmall",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-videoHpMedium-v2.jpg",
+                                  "name": "videoHpMedium",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-videoSixteenByNine600-v2.jpg",
+                                  "name": "videoSixteenByNine600",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-videoSixteenByNine540-v2.jpg",
+                                  "name": "videoSixteenByNine540",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-videoSixteenByNine495-v2.jpg",
+                                  "name": "videoSixteenByNine495",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-videoSixteenByNine390-v2.jpg",
+                                  "name": "videoSixteenByNine390",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-videoSixteenByNine480-v2.jpg",
+                                  "name": "videoSixteenByNine480",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-videoSixteenByNine310-v2.jpg",
+                                  "name": "videoSixteenByNine310",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-videoSixteenByNine225-v2.jpg",
+                                  "name": "videoSixteenByNine225",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-videoSixteenByNine96-v2.jpg",
+                                  "name": "videoSixteenByNine96",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-videoSixteenByNine768-v2.jpg",
+                                  "name": "videoSixteenByNine768",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-videoSixteenByNine150-v2.jpg",
+                                  "name": "videoSixteenByNine150",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-videoSixteenByNineJumbo1600-v2.jpg",
+                                  "name": "videoSixteenByNineJumbo1600",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-miniMoth-v2.jpg",
+                                  "name": "miniMoth",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-windowsTile336H-v2.jpg",
+                                  "name": "windowsTile336H",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-facebookJumbo-v2.jpg",
+                                  "name": "facebookJumbo",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-watch308-v2.jpg",
+                                  "name": "watch308",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/02/20/multimedia/author-michael-schwirtz/author-michael-schwirtz-watch268-v2.jpg",
+                                  "name": "watch268",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [],
+                              "__typename": "ImageCrop"
+                            }
+                          ],
+                          "__typename": "Image"
+                        },
+                        "__typename": "Person"
+                      }
+                    ],
+                    "__typename": "Byline"
+                  }
+                ],
+                "kicker": "",
+                "summary": "After near-annihilation, and a marriage proposal, a Ukrainian unit has become a group of hardened veterans, dug in and determined.",
+                "promotionalMedia": {
+                  "__typename": "Image",
+                  "id": "SW1hZ2U6bnl0Oi8vaW1hZ2UvNWNkN2VlNmMtZjkyOS01YjU4LTkyZDUtZWIxZTg3ZWMwNjli",
+                  "crops": [
+                    {
+                      "name": "THREE_BY_TWO",
+                      "renditions": [
+                        {
+                          "width": 190,
+                          "url": "https://static01.nyt.com/images/2022/04/22/lens/zaoporizhzhya-01/merlin_205815819_a7514618-c832-49ac-aa04-72f82c93094a-thumbWide.jpg",
+                          "name": "thumbWide",
+                          "height": 126,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 75,
+                          "url": "https://static01.nyt.com/images/2022/04/22/lens/zaoporizhzhya-01/merlin_205815819_a7514618-c832-49ac-aa04-72f82c93094a-videoThumb.jpg",
+                          "name": "videoThumb",
+                          "height": 50,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 768,
+                          "url": "https://static01.nyt.com/images/2022/04/22/lens/zaoporizhzhya-01/merlin_205815819_a7514618-c832-49ac-aa04-72f82c93094a-videoLarge.jpg",
+                          "name": "videoLarge",
+                          "height": 507,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 210,
+                          "url": "https://static01.nyt.com/images/2022/04/22/lens/zaoporizhzhya-01/merlin_205815819_a7514618-c832-49ac-aa04-72f82c93094a-mediumThreeByTwo210.jpg",
+                          "name": "mediumThreeByTwo210",
+                          "height": 140,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 225,
+                          "url": "https://static01.nyt.com/images/2022/04/22/lens/zaoporizhzhya-01/merlin_205815819_a7514618-c832-49ac-aa04-72f82c93094a-mediumThreeByTwo225.jpg",
+                          "name": "mediumThreeByTwo225",
+                          "height": 150,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 440,
+                          "url": "https://static01.nyt.com/images/2022/04/22/lens/zaoporizhzhya-01/merlin_205815819_a7514618-c832-49ac-aa04-72f82c93094a-mediumThreeByTwo440.jpg",
+                          "name": "mediumThreeByTwo440",
+                          "height": 293,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 252,
+                          "url": "https://static01.nyt.com/images/2022/04/22/lens/zaoporizhzhya-01/merlin_205815819_a7514618-c832-49ac-aa04-72f82c93094a-mediumThreeByTwo252.jpg",
+                          "name": "mediumThreeByTwo252",
+                          "height": 168,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 378,
+                          "url": "https://static01.nyt.com/images/2022/04/22/lens/zaoporizhzhya-01/merlin_205815819_a7514618-c832-49ac-aa04-72f82c93094a-mediumThreeByTwo378.jpg",
+                          "name": "mediumThreeByTwo378",
+                          "height": 252,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 3592,
+                          "url": "https://static01.nyt.com/images/2022/04/22/lens/zaoporizhzhya-01/merlin_205815819_a7514618-c832-49ac-aa04-72f82c93094a-threeByTwoLargeAt2X.jpg",
+                          "name": "threeByTwoLargeAt2X",
+                          "height": 2395,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 1500,
+                          "url": "https://static01.nyt.com/images/2022/04/22/lens/zaoporizhzhya-01/merlin_205815819_a7514618-c832-49ac-aa04-72f82c93094a-threeByTwoMediumAt2X.jpg",
+                          "name": "threeByTwoMediumAt2X",
+                          "height": 1000,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 600,
+                          "url": "https://static01.nyt.com/images/2022/04/22/lens/zaoporizhzhya-01/merlin_205815819_a7514618-c832-49ac-aa04-72f82c93094a-threeByTwoSmallAt2X.jpg",
+                          "name": "threeByTwoSmallAt2X",
+                          "height": 400,
+                          "__typename": "ImageRendition"
+                        }
+                      ],
+                      "__typename": "ImageCrop"
+                    }
+                  ]
+                },
+                "translations": []
+              },
+              "__typename": "AssetsEdge"
+            },
+            {
+              "node": {
+                "__typename": "Article",
+                "id": "QXJ0aWNsZTpueXQ6Ly9hcnRpY2xlL2FkYzlkYzQ1LTJhOWQtNWFhMi05ZGNiLTczMjljMzUxMDk1Yw==",
+                "url": "https://www.nytimes.com/2022/04/22/us/politics/hackers-russia-cyberattacks.html",
+                "firstPublished": "2022-04-22T18:46:50.000Z",
+                "typeOfMaterials": [
+                  "News"
+                ],
+                "archiveProperties": {
+                  "lede": "",
+                  "__typename": "ArticleArchiveProperties"
+                },
+                "headline": {
+                  "default": "Hackers Claim to Target Russian Institutions in Barrage of Cyberattacks and Leaks",
+                  "__typename": "CreativeWorkHeadline"
+                },
+                "bylines": [
+                  {
+                    "renderedRepresentation": "By Kate Conger and David E. Sanger",
+                    "prefix": "By",
+                    "creators": [
+                      {
+                        "id": "UGVyc29uOm55dDovL3BlcnNvbi82MWM0ZDBkOS1iNTA2LTU1NzAtOTQ1Zi03N2Q0OGMwMzgyYjE=",
+                        "displayName": "Kate Conger",
+                        "url": "",
+                        "promotionalMedia": null,
+                        "__typename": "Person"
+                      },
+                      {
+                        "id": "UGVyc29uOm55dDovL3BlcnNvbi80MGIxNTY3YS0zOTQ3LTU0Y2QtYWRlNS01MjhmMmVhYjZlYTE=",
+                        "displayName": "David E. Sanger",
+                        "url": "",
+                        "promotionalMedia": {
+                          "id": "SW1hZ2U6bnl0Oi8vaW1hZ2UvYTg4MmE4MTctMzFjYi01OTFlLWEwODktNjZhNmE4NDYzYTk2",
+                          "crops": [
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-articleLarge.png",
+                                  "name": "articleLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-popup.png",
+                                  "name": "popup",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-blog480.png",
+                                  "name": "blog480",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-blog533.png",
+                                  "name": "blog533",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-blog427.png",
+                                  "name": "blog427",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-tmagSF.png",
+                                  "name": "tmagSF",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-tmagArticle.png",
+                                  "name": "tmagArticle",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-slide.png",
+                                  "name": "slide",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-jumbo.png",
+                                  "name": "jumbo",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-superJumbo.png",
+                                  "name": "superJumbo",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-blog225.png",
+                                  "name": "blog225",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-master675.png",
+                                  "name": "master675",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-master495.png",
+                                  "name": "master495",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-master180.png",
+                                  "name": "master180",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-master315.png",
+                                  "name": "master315",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-master768.png",
+                                  "name": "master768",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-thumbStandard.png",
+                                  "name": "thumbStandard",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-blogSmallThumb.png",
+                                  "name": "blogSmallThumb",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-thumbLarge.png",
+                                  "name": "thumbLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-smallSquare168.png",
+                                  "name": "smallSquare168",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-smallSquare252.png",
+                                  "name": "smallSquare252",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-square320.png",
+                                  "name": "square320",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-moth.png",
+                                  "name": "moth",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-filmstrip.png",
+                                  "name": "filmstrip",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-square640.png",
+                                  "name": "square640",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-mediumSquare149.png",
+                                  "name": "mediumSquare149",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-sfSpan.png",
+                                  "name": "sfSpan",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-largeHorizontal375.png",
+                                  "name": "largeHorizontal375",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-largeHorizontalJumbo.png",
+                                  "name": "largeHorizontalJumbo",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-horizontalMediumAt2X.png",
+                                  "name": "horizontalMediumAt2X",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-hpLarge.png",
+                                  "name": "hpLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-largeWidescreen573.png",
+                                  "name": "largeWidescreen573",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-thumbWide.png",
+                                  "name": "thumbWide",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-videoThumb.png",
+                                  "name": "videoThumb",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-videoLarge.png",
+                                  "name": "videoLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-mediumThreeByTwo210.png",
+                                  "name": "mediumThreeByTwo210",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-mediumThreeByTwo225.png",
+                                  "name": "mediumThreeByTwo225",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-mediumThreeByTwo440.png",
+                                  "name": "mediumThreeByTwo440",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-mediumThreeByTwo252.png",
+                                  "name": "mediumThreeByTwo252",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-mediumThreeByTwo378.png",
+                                  "name": "mediumThreeByTwo378",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-threeByTwoLargeAt2X.png",
+                                  "name": "threeByTwoLargeAt2X",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-threeByTwoMediumAt2X.png",
+                                  "name": "threeByTwoMediumAt2X",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-threeByTwoSmallAt2X.png",
+                                  "name": "threeByTwoSmallAt2X",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-articleInline.png",
+                                  "name": "articleInline",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-hpSmall.png",
+                                  "name": "hpSmall",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-blogSmallInline.png",
+                                  "name": "blogSmallInline",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-mediumFlexible177.png",
+                                  "name": "mediumFlexible177",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-videoSmall.png",
+                                  "name": "videoSmall",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-videoHpMedium.png",
+                                  "name": "videoHpMedium",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-videoSixteenByNine600.png",
+                                  "name": "videoSixteenByNine600",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-videoSixteenByNine540.png",
+                                  "name": "videoSixteenByNine540",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-videoSixteenByNine495.png",
+                                  "name": "videoSixteenByNine495",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-videoSixteenByNine390.png",
+                                  "name": "videoSixteenByNine390",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-videoSixteenByNine480.png",
+                                  "name": "videoSixteenByNine480",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-videoSixteenByNine310.png",
+                                  "name": "videoSixteenByNine310",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-videoSixteenByNine225.png",
+                                  "name": "videoSixteenByNine225",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-videoSixteenByNine96.png",
+                                  "name": "videoSixteenByNine96",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-videoSixteenByNine768.png",
+                                  "name": "videoSixteenByNine768",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-videoSixteenByNine150.png",
+                                  "name": "videoSixteenByNine150",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-videoSixteenByNineJumbo1600.png",
+                                  "name": "videoSixteenByNineJumbo1600",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-miniMoth.png",
+                                  "name": "miniMoth",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-windowsTile336H.png",
+                                  "name": "windowsTile336H",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-facebookJumbo.png",
+                                  "name": "facebookJumbo",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-watch308.png",
+                                  "name": "watch308",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/03/multimedia/author-david-e-sanger/author-david-e-sanger-watch268.png",
+                                  "name": "watch268",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [],
+                              "__typename": "ImageCrop"
+                            }
+                          ],
+                          "__typename": "Image"
+                        },
+                        "__typename": "Person"
+                      }
+                    ],
+                    "__typename": "Byline"
+                  }
+                ],
+                "kicker": "",
+                "summary": "While the authenticity of leaked data could not be verified, the effort appears to be part of a campaign by hackers opposed to the Kremlin.",
+                "promotionalMedia": {
+                  "__typename": "Image",
+                  "id": "SW1hZ2U6bnl0Oi8vaW1hZ2UvMjE2MDUxYmEtZmMzMS01M2EyLWI5ZTUtYjAyOGZiZTcxNDkz",
+                  "crops": [
+                    {
+                      "name": "THREE_BY_TWO",
+                      "renditions": [
+                        {
+                          "width": 190,
+                          "url": "https://static01.nyt.com/images/2022/04/21/us/politics/21dc-russia-hack/21dc-russia-hack-thumbWide.jpg",
+                          "name": "thumbWide",
+                          "height": 126,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 75,
+                          "url": "https://static01.nyt.com/images/2022/04/21/us/politics/21dc-russia-hack/21dc-russia-hack-videoThumb.jpg",
+                          "name": "videoThumb",
+                          "height": 50,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 768,
+                          "url": "https://static01.nyt.com/images/2022/04/21/us/politics/21dc-russia-hack/21dc-russia-hack-videoLarge.jpg",
+                          "name": "videoLarge",
+                          "height": 507,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 210,
+                          "url": "https://static01.nyt.com/images/2022/04/21/us/politics/21dc-russia-hack/21dc-russia-hack-mediumThreeByTwo210.jpg",
+                          "name": "mediumThreeByTwo210",
+                          "height": 140,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 225,
+                          "url": "https://static01.nyt.com/images/2022/04/21/us/politics/21dc-russia-hack/21dc-russia-hack-mediumThreeByTwo225.jpg",
+                          "name": "mediumThreeByTwo225",
+                          "height": 150,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 440,
+                          "url": "https://static01.nyt.com/images/2022/04/21/us/politics/21dc-russia-hack/21dc-russia-hack-mediumThreeByTwo440.jpg",
+                          "name": "mediumThreeByTwo440",
+                          "height": 293,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 252,
+                          "url": "https://static01.nyt.com/images/2022/04/21/us/politics/21dc-russia-hack/21dc-russia-hack-mediumThreeByTwo252.jpg",
+                          "name": "mediumThreeByTwo252",
+                          "height": 168,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 378,
+                          "url": "https://static01.nyt.com/images/2022/04/21/us/politics/21dc-russia-hack/21dc-russia-hack-mediumThreeByTwo378.jpg",
+                          "name": "mediumThreeByTwo378",
+                          "height": 252,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 5252,
+                          "url": "https://static01.nyt.com/images/2022/04/21/us/politics/21dc-russia-hack/21dc-russia-hack-threeByTwoLargeAt2X.jpg",
+                          "name": "threeByTwoLargeAt2X",
+                          "height": 3504,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 1500,
+                          "url": "https://static01.nyt.com/images/2022/04/21/us/politics/21dc-russia-hack/21dc-russia-hack-threeByTwoMediumAt2X.jpg",
+                          "name": "threeByTwoMediumAt2X",
+                          "height": 1001,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 600,
+                          "url": "https://static01.nyt.com/images/2022/04/21/us/politics/21dc-russia-hack/21dc-russia-hack-threeByTwoSmallAt2X.jpg",
+                          "name": "threeByTwoSmallAt2X",
+                          "height": 400,
+                          "__typename": "ImageRendition"
+                        }
+                      ],
+                      "__typename": "ImageCrop"
+                    }
+                  ]
+                },
+                "translations": []
+              },
+              "__typename": "AssetsEdge"
+            },
+            {
+              "node": {
+                "__typename": "Article",
+                "id": "QXJ0aWNsZTpueXQ6Ly9hcnRpY2xlL2JkYzczMjg0LTg3N2QtNTk3YS1hNDA3LWMzOTg3YWZlY2Y3NA==",
+                "url": "https://www.nytimes.com/2022/04/22/world/europe/france-muslims-presidential-vote.html",
+                "firstPublished": "2022-04-22T18:36:33.000Z",
+                "typeOfMaterials": [
+                  "News"
+                ],
+                "archiveProperties": {
+                  "lede": "",
+                  "__typename": "ArticleArchiveProperties"
+                },
+                "headline": {
+                  "default": "For France’s Muslims, a Choice Between Lesser Evils in Presidential Vote",
+                  "__typename": "CreativeWorkHeadline"
+                },
+                "bylines": [
+                  {
+                    "renderedRepresentation": "By Norimitsu Onishi and Aida Alami",
+                    "prefix": "By",
+                    "creators": [
+                      {
+                        "id": "UGVyc29uOm55dDovL3BlcnNvbi83MzExNzk2Yi1iZDk0LTUyNTYtYmNlZi1kZjA2MDM2ZDM0YjA=",
+                        "displayName": "Norimitsu Onishi",
+                        "url": "",
+                        "promotionalMedia": {
+                          "id": "SW1hZ2U6bnl0Oi8vaW1hZ2UvZWQ1YmVmMDItNjgwMy01NGRmLTljNjMtMDdhNzljY2Y5Yjhl",
+                          "crops": [
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-articleLarge.png",
+                                  "name": "articleLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-popup.png",
+                                  "name": "popup",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-blog480.png",
+                                  "name": "blog480",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-blog533.png",
+                                  "name": "blog533",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-blog427.png",
+                                  "name": "blog427",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-tmagSF.png",
+                                  "name": "tmagSF",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-tmagArticle.png",
+                                  "name": "tmagArticle",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-slide.png",
+                                  "name": "slide",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-jumbo.png",
+                                  "name": "jumbo",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-superJumbo.png",
+                                  "name": "superJumbo",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-blog225.png",
+                                  "name": "blog225",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-master675.png",
+                                  "name": "master675",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-master495.png",
+                                  "name": "master495",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-master180.png",
+                                  "name": "master180",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-master315.png",
+                                  "name": "master315",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-master768.png",
+                                  "name": "master768",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-thumbStandard.png",
+                                  "name": "thumbStandard",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-blogSmallThumb.png",
+                                  "name": "blogSmallThumb",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-thumbLarge.png",
+                                  "name": "thumbLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-smallSquare168.png",
+                                  "name": "smallSquare168",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-smallSquare252.png",
+                                  "name": "smallSquare252",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-square320.png",
+                                  "name": "square320",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-moth.png",
+                                  "name": "moth",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-filmstrip.png",
+                                  "name": "filmstrip",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-square640.png",
+                                  "name": "square640",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-mediumSquare149.png",
+                                  "name": "mediumSquare149",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-sfSpan.png",
+                                  "name": "sfSpan",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-largeHorizontal375.png",
+                                  "name": "largeHorizontal375",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-largeHorizontalJumbo.png",
+                                  "name": "largeHorizontalJumbo",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-horizontalMediumAt2X.png",
+                                  "name": "horizontalMediumAt2X",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-hpLarge.png",
+                                  "name": "hpLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-largeWidescreen573.png",
+                                  "name": "largeWidescreen573",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-largeWidescreen1050.png",
+                                  "name": "largeWidescreen1050",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-thumbWide.png",
+                                  "name": "thumbWide",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-videoThumb.png",
+                                  "name": "videoThumb",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-videoLarge.png",
+                                  "name": "videoLarge",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-mediumThreeByTwo210.png",
+                                  "name": "mediumThreeByTwo210",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-mediumThreeByTwo225.png",
+                                  "name": "mediumThreeByTwo225",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-mediumThreeByTwo440.png",
+                                  "name": "mediumThreeByTwo440",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-mediumThreeByTwo252.png",
+                                  "name": "mediumThreeByTwo252",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-mediumThreeByTwo378.png",
+                                  "name": "mediumThreeByTwo378",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-threeByTwoLargeAt2X.png",
+                                  "name": "threeByTwoLargeAt2X",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-threeByTwoMediumAt2X.png",
+                                  "name": "threeByTwoMediumAt2X",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-threeByTwoSmallAt2X.png",
+                                  "name": "threeByTwoSmallAt2X",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-articleInline.png",
+                                  "name": "articleInline",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-hpSmall.png",
+                                  "name": "hpSmall",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-blogSmallInline.png",
+                                  "name": "blogSmallInline",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-mediumFlexible177.png",
+                                  "name": "mediumFlexible177",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-videoSmall.png",
+                                  "name": "videoSmall",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-videoHpMedium.png",
+                                  "name": "videoHpMedium",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-videoSixteenByNine600.png",
+                                  "name": "videoSixteenByNine600",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-videoSixteenByNine540.png",
+                                  "name": "videoSixteenByNine540",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-videoSixteenByNine495.png",
+                                  "name": "videoSixteenByNine495",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-videoSixteenByNine390.png",
+                                  "name": "videoSixteenByNine390",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-videoSixteenByNine1050.png",
+                                  "name": "videoSixteenByNine1050",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-videoSixteenByNine480.png",
+                                  "name": "videoSixteenByNine480",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-videoSixteenByNine310.png",
+                                  "name": "videoSixteenByNine310",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-videoSixteenByNine225.png",
+                                  "name": "videoSixteenByNine225",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-videoSixteenByNine96.png",
+                                  "name": "videoSixteenByNine96",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-videoSixteenByNine768.png",
+                                  "name": "videoSixteenByNine768",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-videoSixteenByNine150.png",
+                                  "name": "videoSixteenByNine150",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-videoSixteenByNineJumbo1600.png",
+                                  "name": "videoSixteenByNineJumbo1600",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-miniMoth.png",
+                                  "name": "miniMoth",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-windowsTile336H.png",
+                                  "name": "windowsTile336H",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-videoFifteenBySeven1305.png",
+                                  "name": "videoFifteenBySeven1305",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-facebookJumbo.png",
+                                  "name": "facebookJumbo",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-watch308.png",
+                                  "name": "watch308",
+                                  "__typename": "ImageRendition"
+                                },
+                                {
+                                  "url": "https://static01.nyt.com/images/2018/10/15/multimedia/author-norimitsu-onishi/author-norimitsu-onishi-watch268.png",
+                                  "name": "watch268",
+                                  "__typename": "ImageRendition"
+                                }
+                              ],
+                              "__typename": "ImageCrop"
+                            },
+                            {
+                              "renditions": [],
+                              "__typename": "ImageCrop"
+                            }
+                          ],
+                          "__typename": "Image"
+                        },
+                        "__typename": "Person"
+                      },
+                      {
+                        "id": "UGVyc29uOm55dDovL3BlcnNvbi85ZjhkYTQyZC1kNjZlLTUyODMtYjhjMi0wODc1MDM1NjhkMTE=",
+                        "displayName": "Aida Alami",
+                        "url": "",
+                        "promotionalMedia": null,
+                        "__typename": "Person"
+                      }
+                    ],
+                    "__typename": "Byline"
+                  }
+                ],
+                "kicker": "",
+                "summary": "In Sunday’s decisive runoff election, they have a distasteful choice between Macron and Le Pen. They won’t necessarily back Macron.",
+                "promotionalMedia": {
+                  "__typename": "Image",
+                  "id": "SW1hZ2U6bnl0Oi8vaW1hZ2UvOWQ5NjEwYzMtMDcyZi01NGIwLTgyOGYtNWJiMWNlN2I2MTMx",
+                  "crops": [
+                    {
+                      "name": "THREE_BY_TWO",
+                      "renditions": [
+                        {
+                          "width": 190,
+                          "url": "https://static01.nyt.com/images/2022/04/20/world/xxFRANCE-MUSLIM-VOTE-01/merlin_205706592_89cb2401-777a-4a64-8944-ee5b20b87ad2-thumbWide.jpg",
+                          "name": "thumbWide",
+                          "height": 126,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 75,
+                          "url": "https://static01.nyt.com/images/2022/04/20/world/xxFRANCE-MUSLIM-VOTE-01/merlin_205706592_89cb2401-777a-4a64-8944-ee5b20b87ad2-videoThumb.jpg",
+                          "name": "videoThumb",
+                          "height": 50,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 768,
+                          "url": "https://static01.nyt.com/images/2022/04/20/world/xxFRANCE-MUSLIM-VOTE-01/merlin_205706592_89cb2401-777a-4a64-8944-ee5b20b87ad2-videoLarge.jpg",
+                          "name": "videoLarge",
+                          "height": 507,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 210,
+                          "url": "https://static01.nyt.com/images/2022/04/20/world/xxFRANCE-MUSLIM-VOTE-01/merlin_205706592_89cb2401-777a-4a64-8944-ee5b20b87ad2-mediumThreeByTwo210.jpg",
+                          "name": "mediumThreeByTwo210",
+                          "height": 140,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 225,
+                          "url": "https://static01.nyt.com/images/2022/04/20/world/xxFRANCE-MUSLIM-VOTE-01/merlin_205706592_89cb2401-777a-4a64-8944-ee5b20b87ad2-mediumThreeByTwo225.jpg",
+                          "name": "mediumThreeByTwo225",
+                          "height": 150,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 440,
+                          "url": "https://static01.nyt.com/images/2022/04/20/world/xxFRANCE-MUSLIM-VOTE-01/merlin_205706592_89cb2401-777a-4a64-8944-ee5b20b87ad2-mediumThreeByTwo440.jpg",
+                          "name": "mediumThreeByTwo440",
+                          "height": 293,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 252,
+                          "url": "https://static01.nyt.com/images/2022/04/20/world/xxFRANCE-MUSLIM-VOTE-01/merlin_205706592_89cb2401-777a-4a64-8944-ee5b20b87ad2-mediumThreeByTwo252.jpg",
+                          "name": "mediumThreeByTwo252",
+                          "height": 168,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 378,
+                          "url": "https://static01.nyt.com/images/2022/04/20/world/xxFRANCE-MUSLIM-VOTE-01/merlin_205706592_89cb2401-777a-4a64-8944-ee5b20b87ad2-mediumThreeByTwo378.jpg",
+                          "name": "mediumThreeByTwo378",
+                          "height": 252,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 6192,
+                          "url": "https://static01.nyt.com/images/2022/04/20/world/xxFRANCE-MUSLIM-VOTE-01/merlin_205706592_89cb2401-777a-4a64-8944-ee5b20b87ad2-threeByTwoLargeAt2X.jpg",
+                          "name": "threeByTwoLargeAt2X",
+                          "height": 4128,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 1500,
+                          "url": "https://static01.nyt.com/images/2022/04/20/world/xxFRANCE-MUSLIM-VOTE-01/merlin_205706592_89cb2401-777a-4a64-8944-ee5b20b87ad2-threeByTwoMediumAt2X.jpg",
+                          "name": "threeByTwoMediumAt2X",
+                          "height": 1000,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 600,
+                          "url": "https://static01.nyt.com/images/2022/04/20/world/xxFRANCE-MUSLIM-VOTE-01/merlin_205706592_89cb2401-777a-4a64-8944-ee5b20b87ad2-threeByTwoSmallAt2X.jpg",
+                          "name": "threeByTwoSmallAt2X",
+                          "height": 400,
+                          "__typename": "ImageRendition"
+                        }
+                      ],
+                      "__typename": "ImageCrop"
+                    }
+                  ]
+                },
+                "translations": []
+              },
+              "__typename": "AssetsEdge"
+            }
+          ],
+          "totalCount": 52483
+        }
+      },
+      "firstPublished": "2015-12-09T18:42:46.000Z",
+      "lastModified": "2021-04-07T01:41:39.064Z",
+      "sourceId": "100000004047788",
+      "url": "https://www.nytimes.com/section/world/europe",
+      "tagline": "",
+      "promoMedia": null,
+      "__typename": "LegacyCollection",
+      "shortUrl": "https://nyti.ms/1Q08HXi",
+      "headline": {
+        "default": "",
+        "__typename": "CreativeWorkHeadline"
+      },
+      "language": {
+        "name": "English",
+        "code": "en",
+        "__typename": "Language"
+      },
+      "summary": "",
+      "commentProperties": {
+        "status": "NO_COMMENTS",
+        "__typename": "CreativeWorkCommentProperties"
+      },
+      "promotionalMedia": null,
+      "groupings": [
+        {
+          "name": "rank",
+          "containers": [
+            {
+              "label": "",
+              "name": "highlights",
+              "relations": [],
+              "__typename": "LegacyCollectionContainer",
+              "template": "template2"
+            }
+          ],
+          "__typename": "LegacyCollectionGrouping"
+        }
+      ],
+      "storylines": [],
+      "uri": "nyt://legacycollection/5edf6944-87a0-55e1-b7b1-518222564331",
+      "active": true,
+      "socialMedia": [],
+      "associatedAssets": [],
+      "highlights": {
+        "pageInfo": {
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": null,
+          "endCursor": null,
+          "__typename": "PageInfo"
+        },
+        "__typename": "AssetsConnection",
+        "edges": []
+      }
+    }
+  }
+}
