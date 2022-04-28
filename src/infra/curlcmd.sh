@@ -1,3 +1,4 @@
+# [X] cannot get latest article ? seems to be cache version  
 curl 'https://samizdat-graphql.nytimes.com/graphql/v2' \
   -H 'authority: samizdat-graphql.nytimes.com' \
   -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
