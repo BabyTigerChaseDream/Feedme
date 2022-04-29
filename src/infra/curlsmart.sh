@@ -5,14 +5,27 @@
 #           jq command encap  
 ##########################################
 ##'check if a key exists'
-#jq_searchkey() {
-#}
+jq_searchkey() {
+    #jq '..|keys' response
+    #[TODO] $1 just print part : seems like parameters splits ?
+    # 1) only partial parameters 
+    #echo "'$1'"
+    # 2) all parameters 
+    #echo "[IN Function response]'$response'"
+    # 3) all parameters 
+    #echo " ALL parameter: '$@'"
+    echo "$response" | jq '..|keys?' 
+}
 #
 #jq_path_endwith_key() {
 #}
 #
 #jq_print_keyvalue() {
 #}
+
+jq_printpath() {
+  echo "$response" | jq '.data.legacyCollection.collectionsPage.stream.edges[].node|.url,.headline.default,.firstPublished'
+}
 ##########################################
 #             nytimes 
 ##########################################
@@ -26,8 +39,9 @@ num='5'
 # both work: single quote or not quote
 section='/section/world/europe'
 #section=/section/world/europe
+
 send_request() {
-  curl_output=$(curl $url \
+  eval "$1='$(curl $url \
     -H 'authority: samizdat-graphql.nytimes.com' \
     -H 'pragma: no-cache' \
     -H 'cache-control: no-cache' \
@@ -47,15 +61,16 @@ send_request() {
     -H 'referer: $website' \
     -H 'accept-language: zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,cy;q=0.6' \
     --data-raw '{"operationName":"CollectionsQuery","variables":{"id":"'$section'","first":'$num',"streamQuery":{"sort":"newest","text":""},"exclusionMode":"NONE","isHighEnd":false,"highlightsListUri":"nyt://per/personalized-list/__null__","highlightsListFirst":0,"hasHighlightsList":false,"collectionQuery":{"sort":"newest","text":""}},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"fce66de80aa68e479cd61c96b1d70509eadd7d2478eacb76e0494e25a33cb324"}}}' \
-    --compressed | jq '.data.legacyCollection.collectionsPage.stream.edges[].node|.url,.headline.default,.firstPublished')
-    # "id":"/section/world/europe change to different nytimes session , can scrape different section
-    #echo $curl_output
-
-    # double quotes is a must
-    #return "'$curl_output'"
-    return "$curl_output"
+    --compressed )'"
+    #echo $response
 }
-#send_request
-echo "$(send_request)"
+# 1) output func string 
+# response is a global variable by default
+send_request response
+#echo " [R1] $response"
+#jq_searchkey "$response"
+jq_printpath "$response"
+# 2) command substitution
 #result=$(send_request)
-#echo "$result"
+#result=`send_request`
+#echo "Result :'$result'"
