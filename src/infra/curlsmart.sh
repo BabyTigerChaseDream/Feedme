@@ -1,31 +1,31 @@
 #/bin/sh
 # deleted cookie, check tmr if we can still get latest data
-
 ##########################################
 #           jq command encap  
 ##########################################
-##'check if a key exists'
-jq_searchkey() {
-    #jq '..|keys' response
-    #[TODO] $1 just print part : seems like parameters splits ?
-    # 1) only partial parameters 
-    #echo "'$1'"
-    # 2) all parameters 
-    #echo "[IN Function response]'$response'"
-    # 3) all parameters 
-    #echo " ALL parameter: '$@'"
-    echo "$response" | jq '..|keys?' 
+##'check if a key exists' and returns 'true/false' as a whole
+jq_haskey() {
+  echo ' jq_haskey() running'
+  jq -e 'any(paths; .[-1] == "'$2'")' <<< "$response"
 }
-#
-#jq_path_endwith_key() {
+
+# print keywords in 'key' or 'value'
+#jq_searchkey() {
 #}
-#
-#jq_print_keyvalue() {
+jq_get_endkey_value() {
+   jq -c 'paths as $p| getpath($p) as $v|select($p[-1] == "'$keyword'")|$v' <<< "$response"
+}
+# parse subset of json objects
+#jq_get_struct() {
 #}
 
 jq_printpath() {
   echo "$response" | jq '.data.legacyCollection.collectionsPage.stream.edges[].node|.url,.headline.default,.firstPublished'
 }
+
+# search key value pair
+#jq_print_keyvalue() {
+#}
 ##########################################
 #             nytimes 
 ##########################################
@@ -61,16 +61,78 @@ send_request() {
     -H 'referer: $website' \
     -H 'accept-language: zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,cy;q=0.6' \
     --data-raw '{"operationName":"CollectionsQuery","variables":{"id":"'$section'","first":'$num',"streamQuery":{"sort":"newest","text":""},"exclusionMode":"NONE","isHighEnd":false,"highlightsListUri":"nyt://per/personalized-list/__null__","highlightsListFirst":0,"hasHighlightsList":false,"collectionQuery":{"sort":"newest","text":""}},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"fce66de80aa68e479cd61c96b1d70509eadd7d2478eacb76e0494e25a33cb324"}}}' \
-    --compressed )'"
+    --compressed)'"
+    #--compressed |jq .data.legacyCollection.collectionsPage.stream.edges[])'"
     #echo $response
 }
 # 1) output func string 
 # response is a global variable by default
 send_request response
 #echo " [R1] $response"
-#jq_searchkey "$response"
-jq_printpath "$response"
-# 2) command substitution
-#result=$(send_request)
-#result=`send_request`
-#echo "Result :'$result'"
+
+keyword="default"
+#jq_haskey "$response" "headline"
+#jq_haskey "$response" "$keyword"
+status=$?
+# () can group a list of commands
+#if (exit $status)
+#then
+#    echo "Key word found"
+#else
+#    echo "NOTHING "
+#fi
+#jq_get_endkey_value #"$keyword"
+#jq_fullpath_endkey "$keyword"# "$fulloath_endkey"
+#echo "[Out of func]  $(jq_fullpath_endkey)"
+#echo "[Out of parameter]  $PATHARRAY"
+
+# get all paths ends with certain key, the path is in format "k1.k2.k3..."
+jq_fullpath_endkey() {
+  # 1)works below 
+  #echo "In put response : $response"
+  # works 
+  #PATHARRAY=$(jq -c 'paths | select(.[-1] == "'$keyword'")|map(strings |= ".\(.)" | numbers |= "[\(.)]") | join("")'<<< "$response")
+  #[X]#PATHARRAY=$(jq -c 'paths | select(.[-1] == ${keyword})|map(strings |= ".\(.)" | numbers |= "[\(.)]") | join("")'<<< "$response")
+  #works:file name as command parameter 
+  #PATHARRAY=$(jq -c 'paths | select(.[-1] == "'$keyword'")|map(strings |= ".\(.)" | numbers |= "[\(.)]") | join("")' $1)
+  #???:file name as command parameter 
+  PATHARRAY=$(jq -c 'paths | select(.[-1] == "'$keyword'")|map(strings |= ".\(.)" | numbers |= "[\(.)]") | join("")' ${myfile})
+  # 2)works move it inside a func
+  #PATHARRAY=$(echo "$response" | jq -c 'paths | select(.[-1] == "'$keyword'")|map(strings |= ".\(.)" | numbers |= "[\(.)]") | join("")')
+  #echo "jq_fullpath_endkey out put : : : $PATHARRAY"
+}
+#myfile=/home/jia/codespace/Feedme/src/infra/nytimeseuro.json
+myfile=nytimeseuro.json
+#myfile=/
+
+jq_fullpath_endkey #${myfile}
+echo "[Out of parameter]  '$PATHARRAY'"
+#arr=()
+#while IFS=$'\n' read -r line; do
+while IFS='' read -r line; do
+#[work/matters] must have 'remove "' in line
+   temp="${line%\"}"
+   temp="${temp#\"}"
+   arr+=($temp)
+   #echo "[Read line] $line"
+#   # execute jq command to get value of each path
+   #jqcmd="'jq -c' "$line" "${myfile}""
+   # () starts a completely new shell , so need to be specific on cmd/file path
+   #echo $(/usr/bin/jq -c $line ${myfile})
+   #echo $(/usr/bin/jq -c .data.legacyCollection.collectionsPage.stream.edges[0].node.headline.default nytimeseuro.json)
+   #echo "/usr/bin/jq -c '$temp' "$myfile""
+   #----------------------------------
+   #[Works]: Or try to have this cmd in a func and pass $temp as parameter
+   #[X] incorrect : 
+   #TITLE=$(jq -c $line $myfile)
+   TITLE=$(jq -c $temp $myfile)
+   echo "$TITLE" 
+   #----------------------------------
+#   #content=$('jq -c "'$line'"<<< "'$response'"')
+#   #content='$(echo "'$response'"|jq -c "'$line'")'
+   #content='$(jq -c "'$line'"<<<"'$response'")'
+   #echo "'$response'" | jq -c "$line"
+#   jq -c "$line" <<< "$response"
+   #echo "[content] $content"
+   #break
+done <<<$PATHARRAY
