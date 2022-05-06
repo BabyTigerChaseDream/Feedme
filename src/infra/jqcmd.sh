@@ -161,3 +161,8 @@ jq '[path(..)]'
 
 # all keys in the json objects  
 jq '[.. | objects | keys[]] | unique'
+
+# get entry end with certain key & concat all paths 
+# [Jia Q]
+# https://stackoverflow.com/questions/72069045/how-to-concat-jq-paths-in-each-array
+jq -c 'paths | select(.[-1] == "external_url")|.[:-1] | map(strings = ".\(.)" | numbers = "[\(.)]") | join("")' sisy.json
