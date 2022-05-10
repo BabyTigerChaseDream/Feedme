@@ -7,12 +7,18 @@ url='https://samizdat-graphql.nytimes.com/graphql/v2'
 website='https://www.nytimes.com'
 
 # both work for below parameters
-num=15
+num=5
 
 # both work: single quote or not quote
 
 #section=/section/world/europe
-sectionarray=('/section/world/europe' '/section/technology' '/section/world/asia')
+sectionarray=(
+  '/section/world/europe' 
+  #'/section/technology' 
+  '/section/world/asia'
+  #'/section/opinion/international-world'
+  '/section/opinion/business-economics'
+  )
 send_request() {
   #echo "first param is $1"
   # works
@@ -42,8 +48,7 @@ send_request() {
     -H 'referer: $website' \
     -H 'accept-language: zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,cy;q=0.6' \
     --data-raw '{"operationName":"CollectionsQuery","variables":{"id":"'$1'","first":'$num',"streamQuery":{"sort":"newest","text":""},"exclusionMode":"NONE","isHighEnd":false,"highlightsListUri":"nyt://per/personalized-list/__null__","highlightsListFirst":0,"hasHighlightsList":false,"collectionQuery":{"sort":"newest","text":""}},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"fce66de80aa68e479cd61c96b1d70509eadd7d2478eacb76e0494e25a33cb324"}}}' \
-    --compressed |jq '.data.legacyCollection.collectionsPage.stream.edges[].node|.headline.default,.firstPublished')'"
-    #--compressed |jq '.data.legacyCollection.collectionsPage.stream.edges[].node|.url,.headline.default,.firstPublished')'"
+    --compressed |jq -r '.data.legacyCollection.collectionsPage.stream.edges[].node|[.headline.default,.url,.summary,.firstPublished]')'"
     #echo $response
     echo "Good to get here" 
 }
@@ -55,5 +60,6 @@ for sect in ${sectionarray[@]}; do
    send_request "$sect" response
    #send_request '/section/world/asia'
    #break
-   echo "****************[response] $response *****************"
+   #echo "****************[response] $response *****************"
+   printf "%s\n\n" "${response[@]}"
 done
