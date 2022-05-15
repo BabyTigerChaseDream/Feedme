@@ -6,7 +6,6 @@ import (
     "os/exec"
     "sync"
     "strings"
-    // "time"
 )
 // debugging 
 func loopArr(arr []string) {
@@ -45,11 +44,14 @@ func exeCmd(cmdline string, wg *sync.WaitGroup) {
 }
 
 func main() {
-    x := []string{ "jq (.data.legacyCollection.collectionsPage.stream.edges|map({node:(.node|{url,firstPublished,headline:{default:.headline.default},summary})})) as $edges|{data:{legacyCollection:{collectionsPage:{stream:{$edges}}}}} nytimes-response.json", "ls -al" }
+    x := []string{ 
+        `jq (.data.legacyCollection.collectionsPage.stream.edges`+
+            `|map({node:(.node|{url,firstPublished,headline:{default:.headline.default},summary})})) as $edges`+
+            `|{data:{legacyCollection:{collectionsPage:{stream:{$edges}}}}} nytimes-response.json`,
+        "ls -al",
+     }
     // x := []string{"echo newline >> foo.o", "echo newline >> f1.o", "echo newline >> f2.o"}
     // x:= make(map[string]string)
-    // x["echo newline >> foo.o"] = ""
-    // x["echo newline >> f1.o"] = "cmd1.txt"
 
     cmdCnt:=len(x)
     wg := new(sync.WaitGroup)
