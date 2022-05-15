@@ -3,10 +3,7 @@ package main
 /* [SO] https://stackoverflow.com/a/20438245/4568140 */
 import (
     "fmt"
-    "log"
-    "io"
     "os/exec"
-    "os"
     "sync"
     "strings"
     // "time"
@@ -36,48 +33,30 @@ func GenCmd(cmdline string) *exec.Cmd {
     return cmd
   }
 
-func exeCmd(cmdline string, output string, wg *sync.WaitGroup) {
+func exeCmd(cmdline string, wg *sync.WaitGroup) {
     // fmt.Println("Start execCmd() ")
     cmd :=GenCmd(cmdline)
-    // check if assigned output file
-    if output != "" { 
-        f, err := os.Create(output)
-        if err != nil {
-            log.Fatal(err)
-        }
-        defer f.Close()
-        cmd.Stdout = f // set stdout to short-response.json
-        err = cmd.Run()
-        if err != nil {
-            log.Fatal(err)
-        }
-        // Reopen file, copy to stdout confirm cmdline output is there
-        // f.Close()
-        // f, _ = os.Open(output)
-        // io.Copy(os.Stdout, f) 
-    } else {
         out, err := cmd.Output()
         if err != nil {
           fmt.Printf("%s", err)
         }
         fmt.Printf("%s", out)
-    }
     wg.Done() // signal to waitgroup this goroutine complete
 }
 
 func main() {
-    // x := []string{ "jq (.data.legacyCollection.collectionsPage.stream.edges|map({node:(.node|{url,firstPublished,headline:{default:.headline.default},summary})})) as $edges|{data:{legacyCollection:{collectionsPage:{stream:{$edges}}}}} nytimes-response.json", "ls -al" }
+    x := []string{ "jq (.data.legacyCollection.collectionsPage.stream.edges|map({node:(.node|{url,firstPublished,headline:{default:.headline.default},summary})})) as $edges|{data:{legacyCollection:{collectionsPage:{stream:{$edges}}}}} nytimes-response.json", "ls -al" }
     // x := []string{"echo newline >> foo.o", "echo newline >> f1.o", "echo newline >> f2.o"}
-    x:= make(map[string]string)
-    x["echo newline >> foo.o"] = ""
-    x["echo newline >> f1.o"] = "cmd1.txt"
+    // x:= make(map[string]string)
+    // x["echo newline >> foo.o"] = ""
+    // x["echo newline >> f1.o"] = "cmd1.txt"
 
     cmdCnt:=len(x)
     wg := new(sync.WaitGroup)
     wg.Add(cmdCnt)
 
-    for cmd,output := range x{
-        go exeCmd(cmd,output,wg) // empty string output to stdout
+    for _,cmd:= range x{
+        go exeCmd(cmd,wg) // empty string output to stdout
     }
 
     wg.Wait()
