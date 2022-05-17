@@ -1,28 +1,15 @@
 package main
 
 import (
-    "encoding/xml"
-    "fmt"
-    "io/ioutil"
-    "os"
+	"encoding/xml"
+	"fmt"
+	"io/ioutil"
+	"net/http"
+	"reflect"
+	// "github.com/antchfx/xmlquery"
 )
 
-// our struct which contains the complete
-// array of all Users in the file
-type Users struct {
-    XMLName xml.Name `xml:"urlset"`
-    Users   []Url   `xml:"url"`
-}
-
-// the user struct, this contains our
-// Type attribute, our user's name and
-// a social struct which will contain all
-// our social links
-type Url struct {
-    XMLName xml.Name `xml:"loc"`
-    Type    string   `xml:"loc"`
-}
-type Urlset struct {
+type urlset struct {
 	XMLName xml.Name `xml:"urlset"`
 	Text    string   `xml:",chardata"`
 	Video   string   `xml:"video,attr"`
@@ -50,38 +37,62 @@ type Urlset struct {
 			Caption string `xml:"caption"`
 		} `xml:"image"`
 	} `xml:"url"`
-} 
+}
+
+// tweaked from: https://stackoverflow.com/a/42718113/1170664
+// quote from : https://gist.github.com/james2doyle/e2f05b5756e4ee46848a8d987405f152
+func getXML(url string) ([]byte, error) {
+	resp, err := http.Get(url)
+	if err != nil {
+		return []byte{}, fmt.Errorf("GET error: %v", err)
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return []byte{}, fmt.Errorf("Status error: %v", resp.StatusCode)
+	}
+
+	data, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return []byte{}, fmt.Errorf("Read body: %v", err)
+	}
+	fmt.Println(reflect.TypeOf(resp))
+	fmt.Println(reflect.TypeOf(resp.Body))
+	fmt.Println(reflect.TypeOf(data))
+	return data, nil
+}
 
 func main() {
+	/**********************************************************************/
+	/*
+	   // [decode from xml file]
+	   // Open our xmlFile
+	   xmlFile, err := os.Open("go2xml.xml")
+	   // if we os.Open returns an error then handle it
+	   if err != nil {
+	       fmt.Println(err)
+	   }
 
-    // Open our xmlFile
-    xmlFile, err := os.Open("go2xml.xml")
-    // if we os.Open returns an error then handle it
-    if err != nil {
-        fmt.Println(err)
-    }
+	   fmt.Println("Successfully Opened go2xml.xml")
+	   // defer the closing of our xmlFile so that we can parse it later on
+	   defer xmlFile.Close()
 
-    fmt.Println("Successfully Opened go2xml.xml")
-    // defer the closing of our xmlFile so that we can parse it later on
-    defer xmlFile.Close()
+	   // read our opened xmlFile as a byte array.
+	   byteValue, _ := ioutil.ReadAll(xmlFile)
+	*/
+	/**********************************************************************/
+	// [decode from response.Body]
 
-    // read our opened xmlFile as a byte array.
-    byteValue, _ := ioutil.ReadAll(xmlFile)
+	url := "https://www.dw.com/de/news-sitemap.xml"
 
-    // we initialize our Users array
-    var urlset Urlset
-    // we unmarshal our byteArray which contains our
-    // xmlFiles content into 'users' which we defined above
-    xml.Unmarshal(byteValue, &urlset)
-
-    // we iterate through every user within our users array and
-    // print out the user Type, their name, and their facebook url
-    // as just an example
-	fmt.Println("Length of URLS :",len(urlset.URL))
-    for i := 0; i < len(urlset.URL); i++ {
-        fmt.Println("News Loc: " + urlset.URL[i].Loc)
-        fmt.Println("News Title: " + urlset.URL[i].News.Title)
-        fmt.Println(" ********************* ")
-    }
-
+	var URLset urlset
+	if xmlBytes, err := getXML(url); err != nil {
+		fmt.Printf("Failed to get XML: %v", err)
+	} else {
+		xml.Unmarshal(xmlBytes, &URLset)
+	}
+	/************************** XML parser *************************/
+	for _, URLElement := range URLset.URL {
+		fmt.Println(URLElement.News.Title, URLElement.News.PublicationDate, URLElement.Loc, "\n")
+	}
 }
