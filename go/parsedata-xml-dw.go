@@ -9,6 +9,7 @@ import (
 	// "github.com/antchfx/xmlquery"
 )
 
+/*
 type urlset struct {
 	XMLName xml.Name `xml:"urlset"`
 	Text    string   `xml:",chardata"`
@@ -37,6 +38,23 @@ type urlset struct {
 			Caption string `xml:"caption"`
 		} `xml:"image"`
 	} `xml:"url"`
+}
+
+*/
+type urlset struct {
+	XMLName xml.Name `xml:"urlset"`
+	URL     []struct {
+		Loc string `xml:"loc"`
+		News
+		ImageLoc     string `xml:"image>loc"`
+		ImageCaption string `xml:"image>caption"`
+	} `xml:"url"`
+}
+
+type News struct {
+	Publishdate string `xml:"news>publication_date"`
+	Title       string `xml:"news>title"`
+	Summary     string `xml:"news>keywords"`
 }
 
 // tweaked from: https://stackoverflow.com/a/42718113/1170664
@@ -93,6 +111,19 @@ func main() {
 	}
 	/************************** XML parser *************************/
 	for _, URLElement := range URLset.URL {
-		fmt.Println(URLElement.News.Title, URLElement.News.PublicationDate, URLElement.Loc, "\n")
+		/*
+			fmt.Println(
+				"[Element]:",
+				"\nTitle #", URLElement.News.Title,
+				"\nPublicationDate #", URLElement.News.Publishdate,
+				"\nSummary#", URLElement.News.Summary,
+				"\nLoc #", URLElement.Loc, "\n")
+		*/
+		fmt.Println(
+			"[Element]:",
+			"\nTitle #", URLElement.Title,
+			"\nPublicationDate #", URLElement.Publishdate,
+			"\nSummary#", URLElement.Summary,
+			"\nLoc #", URLElement.Loc, "\n")
 	}
 }
