@@ -1,2 +1,2 @@
 # Feedme
-new feed of my interest
+scraper of news feed 
