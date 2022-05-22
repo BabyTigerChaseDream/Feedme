@@ -1,3 +1,7 @@
+# tools to transfer data format:
+#1) json to go struct : https://json2struct.mervine.net/
+#2) xml to json struct : https://www.onlinetool.io/xmltogo/
+
 #nytimes.json was from : 
 #curl 'https://samizdat-graphql.nytimes.com/graphql/v2' 
 
@@ -166,3 +170,7 @@ jq '[.. | objects | keys[]] | unique'
 # [Jia Q]
 # https://stackoverflow.com/questions/72069045/how-to-concat-jq-paths-in-each-array
 jq -c 'paths | select(.[-1] == "external_url")|.[:-1] | map(strings = ".\(.)" | numbers = "[\(.)]") | join("")' sisy.json
+
+
+# get just the subset I am interset
+jq '(.data.legacyCollection.collectionsPage.stream.edges|map({node:(.node|{url,firstPublished,headline:{default:.headline.default},summary})})) as $edges|{data:{legacyCollection:{collectionsPage:{stream:{$edges}}}}}' nytimes-response.json

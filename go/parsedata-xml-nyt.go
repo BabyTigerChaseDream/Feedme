@@ -9,25 +9,40 @@ import (
 	// "github.com/antchfx/xmlquery"
 )
 
+/*
 type Rss struct {
-	XMLName xml.Name `xml:"urlset"`
-	Channel
-	/*
-		URL     []struct {
+	XMLName xml.Name `xml:"rss"`
+	Channel struct {
+		URL []struct {
 			News
-		} `xml:"url"`
-	*/
+		} `xml:"item"`
+	} `xml:"channel"`
 }
-
-type Channel struct {
-	URL []News `xml:"url"`
-}
-
 type News struct {
-	Loc         string `xml:"loc"`
-	Publishdate string `xml:"news>publication_date"`
-	Title       string `xml:"news>title"`
-	Summary     string `xml:"news>keywords"`
+	Loc         string `xml:"link"`
+	Publishdate string `xml:"pubDate"`
+	Title       string `xml:"title"`
+	Summary     string `xml:"description"`
+}
+*/
+// # promote nested structure
+type Rss struct {
+	XMLName xml.Name `xml:"rss"`
+	Channel
+}
+type Channel struct {
+	/*
+		URL []struct {
+			News
+		}
+	*/
+	URL []News `xml:"channel>item"`
+}
+type News struct {
+	Loc         string `xml:"link"`
+	Publishdate string `xml:"pubDate"`
+	Title       string `xml:"title"`
+	Summary     string `xml:"description"`
 }
 
 // tweaked from: https://stackoverflow.com/a/42718113/1170664
@@ -55,7 +70,7 @@ func getXML(url string) ([]byte, error) {
 
 func main() {
 	// [decode from response.Body]
-	url := "https://www.dw.com/en/news-sitemap.xml"
+	url := "https://foreignpolicy.com/feed/"
 
 	var URLset Rss
 	if xmlBytes, err := getXML(url); err != nil {
@@ -64,12 +79,16 @@ func main() {
 		xml.Unmarshal(xmlBytes, &URLset)
 	}
 	/************************** XML parser *************************/
+
 	for _, URLElement := range URLset.URL {
+		// for _, URLElement := range URLset.Channel.URL {
+		fmt.Println("URLElement:", URLElement)
 		fmt.Println(
 			"[Element]:",
 			"\nTitle #", URLElement.Title,
 			"\nPublicationDate #", URLElement.Publishdate,
 			"\nSummary#", URLElement.Summary,
-			"\nLoc #", URLElement.Loc, "\n")
+			"\nLoc #", URLElement.Loc,
+			"\n")
 	}
 }
