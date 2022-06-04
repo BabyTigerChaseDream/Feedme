@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<source>
+  <publisher>Ashby</publisher>
+  <job>
+    <title><![CDATA[Product Engineer]]></title>
+    <country><![CDATA[US]]></country>
+  </job>
+  <job>
+    <title><![CDATA[Full-Stack Engineer]]></title>
+    <city><![CDATA[Remote]]></city>
+    <country><![CDATA[CA]]></country>
+  </job>
+  <job>
+    <title><![CDATA[Pilot]]></title>
+    <city><![CDATA[Remote]]></city>
+    <country><![CDATA[PT]]></country>
+  </job>
+  <job>
+    <title><![CDATA[Software Engineer]]></title>
+    <city><![CDATA[Remote]]></city>
+    <country><![CDATA[DE]]></country>
+  </job>
+  <job>
+    <title><![CDATA[VP of Sales]]></title>
+    <city><![CDATA[San Francisco]]></city>
+    <country><![CDATA[United States or Canada]]></country>
+  </job>
+  <job>
+    <title><![CDATA[Data Analyst]]></title>
+  </job>
+</source>

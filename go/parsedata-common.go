@@ -30,7 +30,6 @@ type FPNews struct {
 	Summary     string `xml:"description"`
 }
 
-// func (r FPRss) GetXML(url string) ([]byte, error) {
 func (r FPRss) GetXML() ([]byte, error) {
 	url := r.FeedURL
 	fmt.Printf("GetXML link is :", url)
@@ -65,10 +64,9 @@ func (r FPRss) ParseXML(xmlBytes []byte) {
 	}
 }
 
-/*
-******** DW News struct *******
+/******** DW News struct *******/
 type DWRss struct {
-	FeedURL string   `default:"https://www.dw.com/en/news-sitemap.xml"`
+	FeedURL string   //`default:"https://www.dw.com/en/news-sitemap.xml"`
 	XMLName xml.Name `xml:any`
 	DWChannel
 }
@@ -81,14 +79,51 @@ type DWNews struct {
 	Title       string `xml:"news>title"`
 	Summary     string `xml:"news>keywords"`
 }
-*/
 
+func (r DWRss) GetXML() ([]byte, error) {
+	url := r.FeedURL
+	fmt.Printf("GetXML link is :", url)
+	resp, err := http.Get(url)
+	if err != nil {
+		return []byte{}, fmt.Errorf("GET error: %v", err)
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return []byte{}, fmt.Errorf("Status error: %v", resp.StatusCode)
+	}
+
+	data, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return []byte{}, fmt.Errorf("Read body: %v", err)
+	}
+	return data, nil
+}
+
+func (r DWRss) ParseXML(xmlBytes []byte) {
+	var URLset DWRss
+	xml.Unmarshal(xmlBytes, &URLset)
+	for _, URLElement := range URLset.URL {
+		fmt.Println(
+			"[Element]:",
+			"\nTitle #", URLElement.Title,
+			"\nPublicationDate #", URLElement.Publishdate,
+			"\nSummary#", URLElement.Summary,
+			"\nLoc #", URLElement.Loc,
+			"\n")
+	}
+}
 func main() {
-	var R Rssfeed
-	R = FPRss{FeedURL: "https://foreignpolicy.com/feed/"}
-	if xmlBytes, err := R.GetXML(); err != nil {
-		fmt.Printf("Failed to get XML: %v", err)
-	} else {
-		R.ParseXML(xmlBytes)
+	FeedArray := []Rssfeed{
+		FPRss{FeedURL: "https://foreignpolicy.com/feed/"},
+		DWRss{FeedURL: "https://www.dw.com/en/news-sitemap.xml"},
+	}
+
+	for _, R := range FeedArray {
+		if xmlBytes, err := R.GetXML(); err != nil {
+			fmt.Printf("Failed to get XML: %v", err)
+		} else {
+			R.ParseXML(xmlBytes)
+		}
 	}
 }

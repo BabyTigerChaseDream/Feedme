@@ -10,13 +10,10 @@ import (
 )
 
 type Rss struct {
-	XMLName xml.Name `xml:"urlset"`
+	// XMLName xml.Name `xml:"urlset"`
+	// rssfeed string
+	XMLName xml.Name `xml:any`
 	Channel
-	/*
-		URL     []struct {
-			News
-		} `xml:"url"`
-	*/
 }
 
 type Channel struct {

@@ -1,0 +1,26 @@
+{
+	"operationName": "CollectionsQuery",
+	"variables": {
+		"id": "/section/world/europe",
+		"first": 5,
+		"streamQuery": {
+			"sort": "newest",
+			"text": ""
+		},
+		"exclusionMode": "NONE",
+		"isHighEnd": false,
+		"highlightsListUri": "nyt://per/personalized-list/__null__",
+		"highlightsListFirst": 0,
+		"hasHighlightsList": false,
+		"collectionQuery": {
+			"sort": "newest",
+			"text": ""
+		}
+	},
+	"extensions": {
+		"persistedQuery": {
+			"version": 1,
+			"sha256Hash": "fce66de80aa68e479cd61c96b1d70509eadd7d2478eacb76e0494e25a33cb324"
+		}
+	}
+}

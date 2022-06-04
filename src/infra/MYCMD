@@ -1,0 +1,1 @@
+/usr/bin/jq -c '.data.legacyCollection.collectionsPage.stream.edges[0].node.headline.default' nytimeseuro.json
