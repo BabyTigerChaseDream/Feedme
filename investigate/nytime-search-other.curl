@@ -1,0 +1,17 @@
+curl 'https://c.amazon-adsystem.com/e/dtb/bid?src=3030&u=https%3A%2F%2Fwww.nytimes.com%2Finternational%2Fsection%2Fworld%2Feurope&pid=pM185t4GRZwnt&cb=3&ws=1518x286&v=7.75.0&t=2000&slots=%5B%7B%22sd%22%3A%22mid3%22%2C%22s%22%3A%5B%22300x250%22%5D%2C%22sn%22%3A%22mid3_sf_web%22%7D%5D&pj=%7B%22si_section%22%3A%22world%22%7D&cfgv=1&gdprl=%7B%22status%22%3A%22no-cmp%22%7D' \
+  -H 'authority: c.amazon-adsystem.com' \
+  -H 'pragma: no-cache' \
+  -H 'cache-control: no-cache' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.nytimes.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.nytimes.com/' \
+  -H 'accept-language: zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,cy;q=0.6' \
+  -H 'cookie: ad-id=AzM__WvMJ0SWoN0YgWsbMPs; ad-privacy=0' \
+  --compressed
