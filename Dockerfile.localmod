@@ -1,0 +1,27 @@
+FROM golang:1.17 AS build
+
+WORKDIR /
+COPY go/app/parsedata-xml-fp.go .
+COPY go.mod .
+COPY go.sum .
+
+RUN echo $(which shell)
+#RUN go mod init feedme
+#RUN go mod tidy
+
+RUN go install github.com/go-delve/delve/cmd/dlv@latest
+RUN go build -gcflags="all=-N -l" -o /feedme
+RUN echo $(ls /go/bin)
+
+# stage 2 build 
+#FROM gcr.io/distroless/base-debian10
+#FROM ubuntu:18.04
+#WORKDIR /
+
+EXPOSE 2345 
+
+#COPY --from=build /go/bin/dlv /dlv
+#COPY --from=build /feedme /feedme
+#COPY --from=build /parsedata-xml-fp.go /parsedata-xml-fp.go
+#ENTRYPOINT [ "/dlv" ]
+CMD ["/dlv", "--listen=:2345", "--headless=true", "--api-version=2", "--accept-multiclient", "exec", "/feedme"]
